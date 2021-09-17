@@ -1,0 +1,24 @@
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.deps.json
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/bin/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.pdb
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.AssemblyReference.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfoInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfo.cs
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.CoreCompileInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/ProysCicloIII/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.pdb
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.deps.json
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/bin/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.pdb
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.AssemblyReference.cache
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfoInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfo.cs
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.CoreCompileInputs.cache
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.pdb

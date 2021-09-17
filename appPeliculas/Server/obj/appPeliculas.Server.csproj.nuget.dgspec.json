@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/appPeliculas.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj",
+        "projectName": "appPeliculas.Client",
+        "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj",
+        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
+        "outputPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj": {
+                "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/appPeliculas.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/appPeliculas.Server.csproj",
+        "projectName": "appPeliculas.Server",
+        "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/appPeliculas.Server.csproj",
+        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
+        "outputPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj": {
+                "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj"
+              },
+              "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj": {
+                "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj",
+        "projectName": "appPeliculas.Shared",
+        "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj",
+        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
+        "outputPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
