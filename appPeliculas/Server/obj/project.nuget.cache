@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ywe85YSQAfjMDx2PTkFs4Y9yrmmz3wDN8KqyBrECDDr+isAum4UvJ5AYvPJGqnRRdbgtFTc6z3nb/ueIRLgMOg==",
+  "dgSpecHash": "s0bnh4ITjJZW4vtVkwh/7LJtdW5fJSrCmesdzVgFtjsJMZuGYQuKtJtBgl5TTXvFvbbkV8mtPqYLZadRLIUtvA==",
   "success": true,
-  "projectFilePath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Server/appPeliculas.Server.csproj",
+  "projectFilePath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Server/appPeliculas.Server.csproj",
   "expectedPackageFiles": [
     "/Users/danielsanchez/.nuget/packages/microsoft.aspnetcore.authorization/5.0.9/microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
     "/Users/danielsanchez/.nuget/packages/microsoft.aspnetcore.components/5.0.9/microsoft.aspnetcore.components.5.0.9.nupkg.sha512",

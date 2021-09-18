@@ -22,3 +22,15 @@
 /Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.dll
 /Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/ref/appPeliculas.Shared.dll
 /Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.pdb
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.deps.json
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/bin/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/bin/Debug/net5.0/appPeliculas.Shared.pdb
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.AssemblyReference.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfoInputs.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.AssemblyInfo.cs
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.csproj.CoreCompileInputs.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/ref/appPeliculas.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/Debug/net5.0/appPeliculas.Shared.pdb

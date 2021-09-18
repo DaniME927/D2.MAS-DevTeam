@@ -1176,11 +1176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj",
+      "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Client/appPeliculas.Client.csproj",
       "projectName": "appPeliculas.Client",
-      "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/appPeliculas.Client.csproj",
+      "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Client/appPeliculas.Client.csproj",
       "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-      "outputPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Client/obj/",
+      "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
@@ -1195,8 +1195,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj": {
-              "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj"
+            "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/appPeliculas.Shared.csproj": {
+              "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/appPeliculas.Shared.csproj"
             }
           }
         }

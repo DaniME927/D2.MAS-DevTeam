@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj",
+      "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/appPeliculas.Shared.csproj",
       "projectName": "appPeliculas.Shared",
-      "projectPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj",
+      "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/appPeliculas.Shared.csproj",
       "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-      "outputPath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/obj/",
+      "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"

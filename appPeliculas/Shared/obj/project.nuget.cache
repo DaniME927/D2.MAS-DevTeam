@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "htr7628ZKILSkT7J7Gejkmcex0B6bqU8CoTnOHmnoz0YLnxFKijGKxUi828N/vNURdFf2v1qhuEalMe+swVPJQ==",
+  "dgSpecHash": "eP6+ofXbipZUtPFdiniqzIhseMDO6og3mbiE1fgSQ5/IUKI0Ggg2CQonCyz5/Cixkq0VVP436pS8sy7f7OLi7Q==",
   "success": true,
-  "projectFilePath": "/Users/danielsanchez/Documents/MisionTIC/Ciclo 3/appPeliculas/Shared/appPeliculas.Shared.csproj",
+  "projectFilePath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/appPeliculas/Shared/appPeliculas.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

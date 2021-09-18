@@ -1,3 +1,20 @@
 ﻿@page "/actores"
 
 <h1>Registro de actores</h1>
+
+<form>
+  <div class="mb-3 col-4">
+    <label for="name" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="name" aria-describedby="title">    
+  </div>
+  <div class="mb-3 col-4">
+    <label for="birthDate" class="form-label">Fecha de nacimiento</label>
+    <input type="date" class="form-control" id="birthDate" aria-describedby="birthDate">    
+  </div>
+  <div class="mb-3 col-4">
+    <label for="bio" class="form-label">Biografía</label>
+    <textarea class="form-control" id="bio" style="height:20vh"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Registrar</button>
+    @*El resto de los campos van acá*@
+</form>
