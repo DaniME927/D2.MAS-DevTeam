@@ -1,0 +1,200 @@
+@page "/peliculas"
+@inject IModalService modal  
+
+<div class="nav-options">
+
+    <Options />
+
+</div>
+
+<div class="cards-container">
+
+    <div class="card">
+        <img src="Images/Shang-Chi y la leyenda de los diez anillos.jpg" class="card-img-top" alt="Shang-Chi y la leyenda de los diez anillos">
+        <div class="card-body">
+            <h5 class="card-title">Shang-Chi y la leyenda de los diez anillos</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=BD77EOU8N3o" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images\SpiderMan - Un nuevo universo.png" class="card-img-top" alt="Spider-Man: Un nuevo universo">
+        <div class="card-body">
+            <h5 class="card-title">Spider-Man: Un nuevo universo</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=-RSseKOWpEQ" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/Free Guy.jpg" class="card-img-top" alt="Free Guy">
+        <div class="card-body">
+            <h5 class="card-title">Free Guy</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=dOokUkFy_1I" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Images/Vengadores - Endgame.jpg" class="card-img-top" alt="Vengadores: Endgame">
+        <div class="card-body">
+            <h5 class="card-title">Vengadores: Endgame</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=znk2OICHbjY" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="cards-container">
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Interstellar.jpg" target="_blank" class="card-img-top" alt="Interstellar">
+        <div class="card-body">
+            <h5 class="card-title">Interstellar</h5>
+            <div class="a-group">
+                <a href="/peliculas" class="btn btn-primary">Ver trailer</a>
+                <a href="/peliculas" class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Jungle Cruise.jpg" class="card-img-top" alt="Jungle Cruise">
+        <div class="card-body">
+            <h5 class="card-title">Jungle Cruise</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=rU8ddexOrXU" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Fast & Furious 9.jpg" class="card-img-top" alt="Fast & Furious 9">
+        <div class="card-body">
+            <h5 class="card-title">Fast & Furious 9</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=t3DpuQrBivU" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/La familia Bigfoot.jpg" class="card-img-top" alt="La familia Bigfoot">
+        <div class="card-body">
+            <h5 class="card-title">La familia Bigfoot</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=Cu7Y8XXC-Bw" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="cards-container">
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Origen.jpg" class="card-img-top" alt="Origen">
+        <div class="card-body">
+            <h5 class="card-title">Origen</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=WrRMioLGFxs" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Forrest Gump.jpg" class="card-img-top" alt="Forrest Gump">
+        <div class="card-body">
+            <h5 class="card-title">Forrest Gump</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=GIs2gpWpBiQ" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Your Name.jpg" class="card-img-top" alt="Your Name.">
+        <div class="card-body">
+            <h5 class="card-title">Your Name.</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=xU47nhruN-Q" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/El hombre elefante.jpg" class="card-img-top" alt="El hombre elefante">
+        <div class="card-body">
+            <h5 class="card-title">El hombre elefante</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=KDmlRIGSDqQ" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="cards-container">
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/El padrino.jpg" class="card-img-top" alt="El padrino">
+        <div class="card-body">
+            <h5 class="card-title">El padrino</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=KCJoMZse6CA" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Joker.jpg" class="card-img-top" alt="Joker">
+        <div class="card-body">
+            <h5 class="card-title">Joker</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=EIyZqNbZQI8" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Malditos bastardos.jpg" class="card-img-top" alt="Malditos bastardos">
+        <div class="card-body">
+            <h5 class="card-title">Malditos bastardos</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=2jcTRi8D80k" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="Images/Jurassic Park (Parque Jurásico).jpg" class="card-img-top" alt="Jurassic Park (Parque Jurásico)">
+        <div class="card-body">
+            <h5 class="card-title">Jurassic Park (Parque Jurásico)</h5>
+            <div class="a-group">
+                <a href="https://www.youtube.com/watch?v=QSVk6rzC0zA" target="_blank" class="btn btn-primary">Ver trailer</a>
+                <a class="btn btn-link" @onclick="@(()=>modal.Show<FetchData>(""))">Detalles</a>
+            </div>
+        </div>
+    </div>
+
+</div>

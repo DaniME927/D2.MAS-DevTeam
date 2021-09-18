@@ -1,0 +1,10 @@
+@inject IModalService modal
+@using pruebaPelicula.Client.Components
+
+<nav class="nav options">
+
+    <a class="nav-link" href="#"@onclick="@(()=>modal.Show<FormularioPelicula>("Registro de película"))">Insertar Película</a>
+    <a class="nav-link" href="#"@onclick="@(()=>modal.Show<FormularioActores>("Registro de actor"))">Insertar Actor</a>
+    <a class="nav-link" href="#">Insertar Categoría</a>
+
+</nav>
