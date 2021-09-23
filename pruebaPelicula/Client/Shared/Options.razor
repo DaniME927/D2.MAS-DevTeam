@@ -1,10 +1,9 @@
 @inject IModalService modal
-@using pruebaPelicula.Client.Components
 
-<nav class="nav options">
+    <nav class="nav options d-flex justify-content-between mt-2 mx-auto" id="options-nav">
 
-    <a class="nav-link" href="#"@onclick="@(()=>modal.Show<FormularioPelicula>("Registro de película"))">Insertar Película</a>
-    <a class="nav-link" href="#"@onclick="@(()=>modal.Show<FormularioActores>("Registro de actor"))">Insertar Actor</a>
-    <a class="nav-link" href="#">Insertar Categoría</a>
+        <a class="nav-link" @onclick="@(()=>modal.Show<FormularioPelicula>("Registro de película"))">Insertar Película</a>
+        <a class="nav-link" @onclick="@(()=>modal.Show<FormularioActores>("Registro de actor"))">Insertar Actor</a>
+        <a class="nav-link">Insertar Categoría</a>
 
-</nav>
+    </nav>

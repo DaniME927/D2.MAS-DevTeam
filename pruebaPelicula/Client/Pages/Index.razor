@@ -1,21 +1,26 @@
 ﻿@page "/"
 
-<div class="nav-options">
+<div class="mx-5 my-3" id="navbar-index">
 
-    <Options />
+    <div id="subnavbar-index">
+
+        <div class="img-index d-flex justify-content-center my-3">
+            <div>
+                <img src="Images/Logo.jpg" alt="D2.MAS Team" id="D2MAS-img" style="width: 100%;">
+            </div>
+        </div> 
+
+        <nav class="navbar navbar-light bg-light nav p-0" style="background-color: white !important;">
+            
+            <div class="container-fluid div-form p-0">
+                <form class="d-flex" style="width: 100%;">
+                    <input class="form-control me-2 input-nav-form mr-2" type="search"
+                        placeholder="Introduzca el nombre de una película, actor o categoría." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </nav>
+    </div>
 
 </div>
-
-<nav class="navbar navbar-light bg-light nav">
-    <div class="img-index">
-        <img src="Images/Logo.jpg" alt="D2.MAS Team" class="D2MAS-img">
-    </div>
-
-    <div class="container-fluid div-form">
-        <form class="d-flex">
-            <input class="form-control me-2 input-nav-form" type="search" placeholder="Introduzca el nombre de una película, actor o categoría." aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
-    </div>
-    
-</nav>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mt2O2VsE5IWs9wN1qRjc27mov6hXG3kWMr66/uL6owUzcs/ybkGF+QJI0wWFjI2rF41mFeNJy9DB/WbvsvpRrA==",
+  "dgSpecHash": "9eUADaQgx7nCfZ3tp6KqGV9UYd99fr8VoGYKyJrOI7xJiiPos9hEpiuK5vE6HDImFyvlVpf8wXsxADiV4wgt7w==",
   "success": true,
-  "projectFilePath": "/Users/danielsanchez/Downloads/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
+  "projectFilePath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

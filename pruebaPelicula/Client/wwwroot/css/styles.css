@@ -1,100 +1,139 @@
-.img-index {
+/* Index.razor.css */
+#navbar-index {
+    position: relative;
+    height: calc(100vh - 136px);
+}
+
+#subnavbar-index {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 10vh;
-    right: 0;
+    top: 50%;
     left: 0;
-    margin: 0;
+    right: 0;
+    transform: translate(0, -50%);
 }
 
-.D2MAS-img {
-    margin: 0;
-    padding: 0;
-    height: 250px;
+
+
+/* Peliculas.razor.css */
+#card-deck {
+    /* background-color: aqua; */
+    max-width: 812px;
 }
 
-.navbar.navbar-light.bg-light.nav {
-    margin: 0;
-    padding: 0;
-}
-
-.container-fluid.div-form {
-    position: absolute;
-    top: 45vh;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    margin: 0;
-}
-
-.form-control.me-2.input-nav-form {
-    margin-right: 5px;
-    width: 50vw;
-}
-
-.cards-container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-
-.card {
-    width: 100%;
-    max-width: 15rem;
-    margin: 5px;
-    border: rgb(122, 122, 122);
-    border-style: solid;
-    border-width: 1.5px;
-}
-
-.a-group {
-    display: flex;
-    justify-content: space-around;
-}
-
-.card-body {
-    align-items: flex-end;
-}
-
-.card-img-top {
-    max-height: 336px;
+.card, .card-img-top {
     border-radius: 7px;
 }
 
-.form-container {
-    width: 50vw;
-}
-
-.row.g-3 {
-    height: 500px;
-}
-
-@media (max-width: 640.98px) {
-
-    .D2MAS-img {
-        height: 150px;
-    }
-
-    .img-index {
-        height: 150px;
-    }
+.card {
+    max-height: 500px;
     
-    .container-fluid.div-form {
-        top: 27vh;
+    max-width: 240px;
+    min-width: 240px;
+}
+
+.card-img-top {
+    max-height: 340px;
+    height: 340px;
+}
+
+.card-img-info:hover .card-img-top {
+    display: none;
+}
+
+.card-img-info:hover .card-info {
+    display: block;
+}
+
+.card-img-info {
+    height: 340px; 
+    width: 100%; 
+}
+
+.card-img-info {
+    cursor: pointer;
+}
+
+.card-info {
+    height: 340px; 
+    width: 100%; 
+    border-radius: 7px;
+    margin: 0;
+    padding: 10px; 
+    background-color: black;
+    display: none;
+}
+
+#btn-details:hover {
+    cursor: pointer;
+}
+
+#container-rate-description {
+    width: 45px;
+    position: relative;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, 100%);
+}
+
+#icon-star-description {
+    width: 15px;
+}
+
+#rate-description {
+    font-size: 12px;
+    color: white;
+}
+
+/* InformacionPelicula.razor.css */
+#container-informacionpelicula {
+    width: 55vw;
+}
+
+#icon-star {
+    max-width: 45px;
+}
+
+#h5-info {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+}
+
+/* @media Index.razor.css */
+@media (max-width: 641px) {
+    #navbar-index {
+        height: calc(100vh - 88px) !important;
+    }
+}
+
+/* @media Peliculas.razor.css */
+ @media (max-width: 576px) {
+    .card {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+} 
+
+/* @media InformacionPelicula.razor.css */
+@media (max-width: 768px) {
+    #h5-info {
+        text-align: left !important;
+        font-size: 18px !important;
     }
 
-    .d-flex {
-        width: 100%;
+    h6#h6-info {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    #h5-info {
+        text-align: left !important;
+        font-size: 16px !important;
     }
 
-    .form-control.me-2.input-nav-form {
-        margin-right: 5px;
-        width: 100%;
-    }   
-
+    h6#h6-info {
+        font-size: 12px !important;
+    }
 }

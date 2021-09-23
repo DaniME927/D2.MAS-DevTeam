@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-9AZ7YsJz\/p2gr4E0EQXdHBqwDxoXqtzxhqC6aRsa2K8=",
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
-      "pruebaPelicula.Shared.dll": "sha256-vYSBsk30tvFfn3h0x59\/v8UgIjjWor0ZpapFi3EQlqo=",
-      "pruebaPelicula.Client.dll": "sha256-8RIAQW8egAvBS2y0yVkErI5y2lYhRffFlgtexBYz2io="
+      "pruebaPelicula.Shared.dll": "sha256-efgrmGjCZTkzr1pVh+58mTjWNa0o0G\/yzTQNLVm9yAs=",
+      "pruebaPelicula.Client.dll": "sha256-cyhAc0rb\/cLFdQhSZ+eAdMT5oa2PdiVA8Qss6ioTMOk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "pruebaPelicula.Shared.pdb": "sha256-Isr5oe+diSnDPGZLdANRRPl2jp6TgkxlRn7sSG1yeAs=",
-      "pruebaPelicula.Client.pdb": "sha256-gbAriTrtDSMDeYCJArT\/ceNi6rPYqhdhRLV3l7qnrrI="
+      "pruebaPelicula.Shared.pdb": "sha256-bLObZbeocbcX8nm4ZQbprEHnmuTCAUgKedRa47sSzN4=",
+      "pruebaPelicula.Client.pdb": "sha256-fj9yazZkpDFVI9TrgVG4M8PHacbGImNloy2rY88r2aQ="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

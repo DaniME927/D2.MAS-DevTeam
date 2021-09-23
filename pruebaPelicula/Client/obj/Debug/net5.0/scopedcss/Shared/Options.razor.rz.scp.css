@@ -1,6 +1,29 @@
-.nav.options[b-6jj5hsjwbw] {
-    justify-content: space-around;
-    margin: 0;
-    margin-top: 5px;
-    padding: 0;
+#options-nav[b-6jj5hsjwbw] {
+    max-width: 815px;
+    max-height: 40px;
+    /* background-color: yellow; */
+}
+
+a[b-6jj5hsjwbw] {
+    color: #1b6ec2 !important;
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+a:hover[b-6jj5hsjwbw] {
+    border-bottom: 1px solid #1b6ec2;
+}
+
+@media (max-width: 690px) {
+    #options-nav[b-6jj5hsjwbw] {
+        font-size: 14px;
+    }
+}
+
+ @media (max-width: 641px) {
+    #options-nav[b-6jj5hsjwbw] {
+        display: none !important;
+    }
 }

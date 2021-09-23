@@ -1233,19 +1233,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/danielsanchez/.nuget/packages/": {}
+    "C:\\Users\\sandr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielsanchez/Downloads/pruebaPelicula/Client/pruebaPelicula.Client.csproj",
+      "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
       "projectName": "pruebaPelicula.Client",
-      "projectPath": "/Users/danielsanchez/Downloads/pruebaPelicula/Client/pruebaPelicula.Client.csproj",
-      "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-      "outputPath": "/Users/danielsanchez/Downloads/pruebaPelicula/Client/obj/",
+      "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+      "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1257,8 +1257,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/danielsanchez/Downloads/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj": {
-              "projectPath": "/Users/danielsanchez/Downloads/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj"
+            "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+              "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
             }
           }
         }
@@ -1312,7 +1312,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
