@@ -1,0 +1,19 @@
+@page "/categories/create"
+@inject NavigationManager navigationManager
+
+<h6>Crear categoría</h6>
+
+<FormCategory OnValidSubmit = "Create" CategoryModel = "Category" />
+
+@code {
+
+    private Category Category = new Category();
+
+
+    private void Create()
+    {
+        Console.WriteLine($"Nombre de la categoría: {Category.Name}");
+        navigationManager.NavigateTo("/category");
+    }
+
+}

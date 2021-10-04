@@ -1,0 +1,94 @@
+<EditForm Model="MovieModel" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <div class="jumbotron">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col col-sm-9">
+                        @* Input para ingresar el nombre de la pelicula *@
+                        <InputText class="form-control" @bind-Value="@MovieModel.Name" placeholder="Nombre de la película" />
+                        <ValidationMessage For="@(() => MovieModel.Name)" />
+                    </div>
+                    <div class="col col-sm-3">
+                        @* Checkbox para definir si esta o no en cartelera *@
+                        <InputCheckbox id="en_cartelera" class="form-check-input" @bind-Value="@MovieModel.EnCartelera" />
+                        <label class="form-check-label" for="en_cartelera">En cartelera</label>
+                        <ValidationMessage For="@(() => MovieModel.EnCartelera)" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        @* Input para ingresar el trailer *@
+                        <InputText class="form-control" @bind-Value="MovieModel.Trailer" placeholder="Trailer de la película" />
+                        <ValidationMessage For="@(() => MovieModel.Trailer)" />
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            @* Fecha de lanzamiento *@
+                            <InputDate class="form-control" @bind-Value="MovieModel.Premier" />
+                            <ValidationMessage For="@(() => MovieModel.Premier)" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @* Creamos un textarea para la redaccion de la sinopsis de la pelicula *@
+            <div class="form-group">
+                <div>
+                    <InputTextArea class="form-control" placeholder="Sinopsis" @bind-Value="@MovieModel.Sinopsis" />
+                    <ValidationMessage For="@(() => MovieModel.Sinopsis)" />
+                </div>
+            </div>
+            @* Seleccion de categorias *@
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label>Selecciona las categorías</label>
+                        <div>
+                            <MultipleSelector NoSelected="NoSelect" Selected="Select" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        @* Usaremos el componente para cargar imagenes => Poster de la pelicula *@
+                        <div class="form-group">
+                            <ImageComponent Label="" ImageSelected="ImageSelected" ImageURL="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @* Boton para enviar la informacion al metodo create o edit *@
+            <button type="submit" class="btn btn-success">Aceptar</button>
+            <button type="submit" class="btn btn-danger">Cancelar</button>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+
+    private string posterTemporal;
+    [Parameter] public Movie MovieModel { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public List<Category> CategorySelected { get; set; } = new List<Category>();
+    [Parameter] public List<Category> CategoryNoSelected { get; set; } = new List<Category>();
+    private List<MultipleSelectorModel> Select { get; set; } = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> NoSelect { get; set; } = new List<MultipleSelectorModel>();
+    
+    private void ImageSelected(string image864)
+    {
+        MovieModel.Poster = image864;
+    }
+
+    protected override void OnInitialized()
+    {
+        NoSelect = CategoryNoSelected.Select(x => new MultipleSelectorModel(x.Id.ToString(), x.Name)).ToList();
+
+        @* En caso de que el usuario quiera modificar la imagen de la pelicula *@
+        if (!string.IsNullOrWhiteSpace(MovieModel.Poster))
+        {
+            posterTemporal = MovieModel.Poster;
+            MovieModel.Poster = null;
+        }
+    }
+
+}

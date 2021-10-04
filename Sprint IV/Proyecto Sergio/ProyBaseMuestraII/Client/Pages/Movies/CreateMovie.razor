@@ -1,0 +1,35 @@
+@page "/movies/create"
+@inject NavigationManager navigationManager
+
+<h6>Crear películas</h6>
+<FormMovie MovieModel="Movie" OnValidSubmit="Create" CategoryNoSelected="NoSelected" />
+
+@code {
+
+    private Movie Movie = new Movie();
+    private List<Category> NoSelected = new List<Category>();
+
+    private void Create()
+    {
+        Console.WriteLine(navigationManager.Uri);
+        navigationManager.NavigateTo("movie");
+        Console.WriteLine(Movie.Poster);
+        Console.WriteLine(Movie.Name);
+        Console.WriteLine(Movie.Premier);
+        Console.WriteLine(Movie.EnCartelera);
+        Console.WriteLine(Movie.Sinopsis);
+        Console.WriteLine(Movie.CategoriesMovie);
+    }
+
+    protected override void OnInitialized()
+    {
+        NoSelected = new List<Category>()
+            { 
+                new Category(){ Id=1, Name="Comedia" },
+                new Category(){ Id=2, Name="Drama" },
+                new Category(){ Id=3, Name="Acción" },
+                new Category(){ Id=4, Name="Ciencia ficción" }
+            };
+    }
+
+}

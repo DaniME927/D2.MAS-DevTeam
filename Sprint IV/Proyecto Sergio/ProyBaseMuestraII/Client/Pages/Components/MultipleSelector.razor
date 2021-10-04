@@ -1,0 +1,75 @@
+<div class="form-group">
+    <div class="selector-multiple">
+        @* Cuadro con categorias que se tiene como opcion *@
+        <ul class="selectable-ul">
+            @foreach (var item in NoSelectedSorted)
+            {
+                <li @onclick="@(() => Seleccionar(item))">@item.Value</li>
+            }
+        </ul>
+        @* Seccion de botones *@
+        <div class="selector-multiple-buttons">
+            <button type="button" @onclick="SelectAll">@selectAllText</button>
+            <button type="button" @onclick="UnSelectAll">@removeAllText</button>
+        </div>
+        @* Cuadro con categorias las cuales ya se seleccionaron *@
+        <ul class="selectable-ul">
+            @foreach (var item in SelectedSorted)
+            {
+                <li @onclick="@(() => Deseleccionar(item))">@item.Value</li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+
+    private string removeAllText = "<<";
+    private string selectAllText = ">>";
+    [Parameter]
+    public List<MultipleSelectorModel> NoSelected { get; set; } = new List<MultipleSelectorModel>();
+    [Parameter]
+    public List<MultipleSelectorModel> Selected { get; set; } = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> NoSelectedSorted { get; set; } = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> SelectedSorted { get; set; } = new List<MultipleSelectorModel>();
+
+    protected override void OnInitialized()
+    {
+        NoSelectedSorted = NoSelected.OrderBy(x => x.Value).ToList();
+        SelectedSorted = Selected.OrderBy(x => x.Value).ToList();
+    }
+
+    private void Seleccionar(MultipleSelectorModel item)
+    {
+        NoSelected.Remove(item);
+        Selected.Add(item);
+        NoSelectedSorted = NoSelected.OrderBy(x => x.Value).ToList();
+        SelectedSorted = Selected.OrderBy(x => x.Value).ToList();
+        
+    }
+
+    private void Deseleccionar(MultipleSelectorModel item)
+    {
+        Selected.Remove(item);
+        NoSelected.Add(item);
+        SelectedSorted = Selected.OrderBy(x => x.Value).ToList();
+        NoSelectedSorted = NoSelected.OrderBy(x => x.Value).ToList();
+    }
+
+    private void SelectAll()
+    {
+        Selected.AddRange(NoSelected);
+        NoSelected.Clear();
+        SelectedSorted = Selected.OrderBy(x => x.Value).ToList();
+        NoSelectedSorted = NoSelected;
+    }
+
+    private void UnSelectAll()
+    {
+        NoSelected.AddRange(Selected);
+        Selected.Clear();
+        NoSelectedSorted = NoSelected.OrderBy(x => x.Value).ToList();
+        SelectedSorted = Selected;
+    }
+
+}

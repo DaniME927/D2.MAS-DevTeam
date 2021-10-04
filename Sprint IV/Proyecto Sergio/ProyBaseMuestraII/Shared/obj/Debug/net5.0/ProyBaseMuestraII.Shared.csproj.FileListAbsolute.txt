@@ -1,0 +1,48 @@
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.AssemblyReference.cache
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfoInputs.cache
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfo.cs
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.CoreCompileInputs.cache
+C:\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.deps.json
+C:\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.deps.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.AssemblyReference.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfoInputs.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfo.cs
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.CoreCompileInputs.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+D:\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.deps.json
+D:\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+D:\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+D:\Archivos\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.AssemblyReference.cache
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfoInputs.cache
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfo.cs
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.CoreCompileInputs.cache
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+D:\Archivos\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.deps.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.AssemblyReference.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfoInputs.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.AssemblyInfo.cs
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ref\ProyBaseMuestraII.Shared.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Shared\obj\Debug\net5.0\ProyBaseMuestraII.Shared.pdb

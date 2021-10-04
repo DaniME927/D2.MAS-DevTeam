@@ -1,0 +1,20 @@
+@page "/movie"
+@inject IServiceMovie movie
+
+<h6>Mostrar películas</h6>
+
+<div class="jumbotron">
+    <CardMoviesComponent ListMovies = "Movies" />
+</div>
+
+@code {
+
+    @* Creamos instancia de la interfaz *@
+    private List<Movie> Movies;
+
+    protected override void OnInitialized()
+    {
+        Movies = movie.GetMovies();
+    }
+
+}

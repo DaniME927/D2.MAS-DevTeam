@@ -1,0 +1,22 @@
+<EditForm Model = "CategoryModel" OnValidSubmit = "OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label class="form-label">
+            Categoría
+        </label>
+        <div class="mb-3">
+            <InputText class="form-control" @bind-Value="@CategoryModel.Name" />
+            <ValidationMessage For="@(()=>CategoryModel.Name)" />
+        </div>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-success">Guardar</button>
+    </div>
+</EditForm>
+
+@code {
+
+    [Parameter] public Category CategoryModel { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+}

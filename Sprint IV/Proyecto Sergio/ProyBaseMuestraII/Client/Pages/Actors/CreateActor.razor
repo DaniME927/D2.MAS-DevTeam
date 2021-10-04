@@ -1,0 +1,15 @@
+@page "/actors/create"
+@inject NavigationManager navigationManager
+
+<FormActor ActorModel="Actor" OnValidSubmit="Create" />
+
+@code {
+
+    private Actor Actor = new Actor();
+
+    private void Create()
+    {
+        navigationManager.NavigateTo("/actor");
+    }
+
+}

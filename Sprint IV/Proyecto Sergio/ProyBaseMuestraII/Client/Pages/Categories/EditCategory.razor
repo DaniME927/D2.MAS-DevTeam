@@ -1,0 +1,25 @@
+@page "/categories/edit/{CategoryId:int}"
+@inject NavigationManager navigationManager
+
+<h6>Editar categoría</h6>
+
+<FormCategory OnValidSubmit = "Edit" CategoryModel = "Category" />
+
+@code {
+
+    [Parameter] public int CategoryId { get; set; }
+    private Category Category;
+
+    protected override void OnInitialized()
+    {
+        Category = new Category() { Id = CategoryId, Name = "Comedia" };
+    }
+
+    private void Edit()
+    {
+        Console.WriteLine($"Id: {Category.Id}");
+        Console.WriteLine($"Categoría: {Category.Name}");
+        navigationManager.NavigateTo("/category");
+    }
+
+}

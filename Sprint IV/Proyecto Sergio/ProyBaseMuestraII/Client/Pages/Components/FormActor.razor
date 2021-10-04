@@ -1,0 +1,74 @@
+<EditForm Model="ActorModel" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <div class="form-group my-4">
+            <div class="row">
+                <div class="col col-sm-4">
+                    <InputSelect name="DocumentType" id="DocumentTypeSelect" class="form-control" @bind-Value="@ActorModel.DocumentType">
+                        @foreach (var DocumentTypeName in Enum.GetValues(typeof(DocumentTypeEnum)))
+                        {
+                            <option value="@DocumentTypeName">@DocumentTypeName</option>
+                        }
+                    </InputSelect>
+                </div>
+                <div class="col col-sm-4">
+                    <InputText class="form-control" placeholder="Documento del actor." @bind-Value="@ActorModel.Document" />
+                    <ValidationMessage For="@(() => @ActorModel.Document)" />
+                </div>
+                <div class="col col-sm-4">
+                    <InputText class="form-control" placeholder="Nombre del actor." @bind-Value="@ActorModel.ActorName" />
+                    <ValidationMessage For="@(() => @ActorModel.ActorName)" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group my-4">
+            <div class="row">
+                <div class="col col-sm-4">
+                    <InputSelect name="Gender" id="GenderSelect" class="form-control" @bind-Value="ActorModel.Gender">
+                        @foreach (var ActorGender in Enum.GetValues(typeof(GenderEnum)))
+                        {
+                            <option value="@ActorGender">@ActorGender</option>
+                        }
+                    </InputSelect>
+                </div>
+                <div class="col col-sm-4">
+                    <InputDate class="form-control" @bind-Value="@ActorModel.BirthDate" />
+                    <ValidationMessage For="@(() => ActorModel.BirthDate)" />
+                </div>
+                <div class="col col-sm-4">
+                    <ImageComponent Label="" ImageSelected="ImageSelected" ImageURL="" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group my-4">
+            <div class="row">
+                <div class="col col-sm-6">
+                    <label for="KnowCredits" class="">Cantidad de películas del actor.</label>
+                    <InputNumber id="KnowCredits" min="0" class="form-control" @bind-Value="@ActorModel.KnowCredits" />
+                </div>
+                <div class="col col-sm-6">
+                    <label for="Nominations" class="">Cantidad de nominaciones del actor.</label>
+                    <InputNumber min="0" id="Nominations" class="form-control" @bind-Value="@ActorModel.Nominations" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group my-4">
+            <div class="row">
+                <InputTextArea class="form-control" style="height: 150px !important;" placeholder="Biografía del actor." @bind-Value="@ActorModel.Biography" />
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Aceptar</button>
+</EditForm>
+
+@code {
+
+    [Parameter] public Actor ActorModel { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+    private void ImageSelected(string image864)
+    {
+        ActorModel.Photo = image864;
+    }
+
+}

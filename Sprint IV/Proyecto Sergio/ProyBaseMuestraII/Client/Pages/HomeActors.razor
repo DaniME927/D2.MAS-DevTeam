@@ -1,0 +1,13 @@
+@page "/home-actor"
+@inject NavigationManager navigationManager
+
+<div class="form-group">
+    <div class="jumbotron">
+        <div class="row d-flex justify-content-center">
+            <button type="button" class="btn btn-success mx-3" @onclick="@(() => navigationManager.NavigateTo("/actors/create"))">Crear actor</button>
+            <button type="button" class="btn btn-primary mx-3" @onclick="@(() => navigationManager.NavigateTo("/actors/edit/7"))">Editar actor</button>
+            <button type="button" class="btn btn-info mx-3" @onclick="@(() => navigationManager.NavigateTo("/actor"))">Listar actores</button>
+            <button type="button" class="btn btn-danger mx-3" @onclick="@(() => Console.WriteLine("En espera de implementar esta función"))">Eliminar actor</button>
+        </div>
+    </div>
+</div>

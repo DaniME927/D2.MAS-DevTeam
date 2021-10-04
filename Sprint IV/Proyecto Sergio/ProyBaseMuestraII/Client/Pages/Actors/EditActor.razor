@@ -1,0 +1,23 @@
+@page "/actors/edit/{ActorId:int}"
+@inject NavigationManager navigationManager
+
+<FormActor ActorModel="Actor" OnValidSubmit="Edit" />
+
+@code {
+
+    [Parameter] public int ActorId { get; set; }
+    private Actor Actor = new Actor();
+
+    protected override void OnInitialized()
+    {
+        Actor = new Actor() { Id = ActorId, ActorName = "Robert Downey Jr" };
+    }
+
+    private void Edit()
+    {
+        Console.WriteLine($"Id película {Actor.Id}");
+        Console.WriteLine($"Actualizar nombre película {Actor.ActorName}");
+        navigationManager.NavigateTo("/actor");
+    }
+
+}

@@ -1,0 +1,22 @@
+@page "/category"
+@inject IServiceCategory category
+
+<div class="jumbotron">
+    <div>
+        @foreach (var item in Categories)
+        {
+            <p>@item.Name</p>
+        }
+    </div>
+</div>
+
+@code {
+
+    private List<Category> Categories;
+
+    protected override void OnInitialized()
+    {
+        Categories = category.GetCategories().OrderBy(x => x.Name).ToList();
+    }
+
+}

@@ -1,0 +1,13 @@
+@page "/home-movie"
+@inject NavigationManager navigationManager
+
+<div class="form-group">
+    <div class="jumbotron">
+        <div class="row  d-flex justify-content-center">
+            <button type="button" class="btn btn-success mx-3" @onclick="@(() => navigationManager.NavigateTo("/movies/create"))">Crear película</button>
+            <button type="button" class="btn btn-primary mx-3" @onclick="@(() => navigationManager.NavigateTo("/movies/edit/7"))">Editar película</button>
+            <button type="button" class="btn btn-info mx-3" @onclick="@(() => navigationManager.NavigateTo("/movie"))">Listar películas</button>
+            <button type="button" class="btn btn-danger mx-3" @onclick="@(() => Console.WriteLine("En espera de implementar esta función"))">Eliminar película</button>
+        </div>
+    </div>
+</div>

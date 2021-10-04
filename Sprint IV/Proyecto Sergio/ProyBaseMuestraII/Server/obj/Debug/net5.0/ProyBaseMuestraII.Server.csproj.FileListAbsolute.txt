@@ -1,0 +1,240 @@
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.StaticWebAssets.xml
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.exe
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.deps.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.dev.json
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.pdb
+C:\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.AssemblyReference.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfoInputs.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfo.cs
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CoreCompileInputs.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cs
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.Manifest.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\scopedcss\bundle\ProyBaseMuestraII.Server.styles.css
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.input.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.output.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorCoreGenerate.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cache
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cs
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CopyComplete
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.genruntimeconfig.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.StaticWebAssets.xml
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.exe
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.deps.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.dev.json
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.AssemblyReference.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfoInputs.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfo.cs
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CoreCompileInputs.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cs
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.Manifest.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\scopedcss\bundle\ProyBaseMuestraII.Server.styles.css
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.input.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.output.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorCoreGenerate.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cache
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cs
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CopyComplete
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\Users\YESICA\Desktop\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.genruntimeconfig.cache
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.Development.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.StaticWebAssets.xml
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.StaticWebAssets.xml
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.exe
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.deps.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.dev.json
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.pdb
+D:\Archivos\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.AssemblyReference.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfoInputs.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfo.cs
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CoreCompileInputs.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cs
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.Manifest.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.xml
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\scopedcss\bundle\ProyBaseMuestraII.Server.styles.css
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.input.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.output.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorCoreGenerate.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cache
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cs
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CopyComplete
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.dll
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+D:\Archivos\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.genruntimeconfig.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\appsettings.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.StaticWebAssets.xml
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.exe
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.deps.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.runtimeconfig.dev.json
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Client.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\bin\Debug\net5.0\ProyBaseMuestraII.Shared.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.AssemblyReference.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfoInputs.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.AssemblyInfo.cs
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CoreCompileInputs.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorAssemblyInfo.cs
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.Manifest.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\staticwebassets\ProyBaseMuestraII.Server.StaticWebAssets.xml
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\scopedcss\bundle\ProyBaseMuestraII.Server.styles.css
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.input.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.TagHelpers.output.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorCoreGenerate.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cache
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.RazorTargetAssemblyInfo.cs
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.Views.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.csproj.CopyComplete
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ref\ProyBaseMuestraII.Server.dll
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.pdb
+C:\Users\sandr\Desktop\Proyectos v.2\ProyBaseMuestraII\Server\obj\Debug\net5.0\ProyBaseMuestraII.Server.genruntimeconfig.cache
