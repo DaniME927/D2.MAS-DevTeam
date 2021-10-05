@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dz95G9e//rnMRSAJKca6NwFPlKQp8Y/iwQFOllZaMMP2Tg3EjSNuiYfhNjgRLMDwD34mAXqhTocy1A+vPKbflA==",
+  "dgSpecHash": "vwUAQL5DKLNsI6WgLtE18gCYm5mUK5z7H42fuODQ5lE1nvm0xwu+JuSaHTEDjJ7Dsz6EQHH26z6NFygqz41IhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+  "projectFilePath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sandr\\.nuget\\packages\\blazored.modal\\5.0.3\\blazored.modal.5.0.3.nupkg.sha512",
     "C:\\Users\\sandr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",

@@ -1,9 +1,9 @@
 @inject IModalService modal
 
-    <nav class="nav options d-flex justify-content-between mt-2 mx-auto" id="options-nav">
+    <nav class="nav options d-flex justify-content-between mx-auto" id="options-nav">
 
-        <a class="nav-link" @onclick="@(()=>modal.Show<FormularioPelicula>("Registro de película"))">Insertar Película</a>
-        <a class="nav-link" @onclick="@(()=>modal.Show<FormularioActores>("Registro de actor"))">Insertar Actor</a>
-        <a class="nav-link">Insertar Categoría</a>
+        <a class="nav-link" @onclick="@(()=>modal.Show<ModalCRUDPeliculas>("CRUD Película"))">CRUD Película</a>
+        <a class="nav-link" @onclick="@(()=>modal.Show<ModalCRUDActores>("CRUD Actor"))">CRUD Actor</a>
+        <a class="nav-link" @onclick="@(()=>modal.Show<ModalCRUDCategorias>("CRUD Categoría"))">CRUD Categoría</a>
 
     </nav>

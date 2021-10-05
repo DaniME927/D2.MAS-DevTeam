@@ -9,6 +9,7 @@
 
 .navbar-brand[b-fn6layb08c] {
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .oi[b-fn6layb08c] {
@@ -16,6 +17,17 @@
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
+}
+
+#startup-icon[b-fn6layb08c], #film-icon[b-fn6layb08c] {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#navmenu-searchbar[b-fn6layb08c] {
+    max-width: 218px;
+    margin: 0 auto;
+    padding-bottom: 36px;
 }
 
 .nav-item[b-fn6layb08c] {
@@ -58,5 +70,15 @@
     .collapse[b-fn6layb08c] {
         /* Never collapse the sidebar for wide screens */
         display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    #navmenu-searchbar[b-fn6layb08c] {
+        max-width: 90%;
+    }
+
+    .bbcita[b-fn6layb08c] {
+        
     }
 }

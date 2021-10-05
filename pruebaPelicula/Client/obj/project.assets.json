@@ -1238,11 +1238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+      "projectUniqueName": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
       "projectName": "pruebaPelicula.Client",
-      "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+      "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
       "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\obj\\",
+      "outputPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1257,8 +1257,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
-              "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+            "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+              "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
             }
           }
         }

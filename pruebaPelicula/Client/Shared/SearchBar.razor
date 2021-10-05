@@ -1,0 +1,24 @@
+@inject NavigationManager NavigatorPages
+
+<div class="container-fluid div-form p-0">
+    <form class="d-flex" style="width: 100%;">
+        <input type="search"  class="form-control me-2 input-nav-form mr-2 FontSize" autocomplete="off"
+        @bind-Value="film_search" @bind-Value:event="oninput" placeholder="Introduzca el nombre de una película, actor o categoría.">
+        <button type="button" class="btn btn-outline-success FontSize" @onclick="SearchFilm">Buscar</button>
+    </form>
+</div>
+
+@code {
+
+    private string film_search = string.Empty;
+
+    private void SearchFilm()
+    {
+        if (NavigatorPages.Uri != "/movies/search")
+        {
+            NavigatorPages.NavigateTo("/movies/search");
+        }
+        Console.WriteLine(film_search);
+    }
+
+}

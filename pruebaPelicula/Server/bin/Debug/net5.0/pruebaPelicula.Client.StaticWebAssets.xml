@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="_content/Blazored.Modal" Path="C:\Users\sandr\.nuget\packages\blazored.modal\5.0.3\build\..\staticwebassets\" />
-  <ContentRoot BasePath="/" Path="C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

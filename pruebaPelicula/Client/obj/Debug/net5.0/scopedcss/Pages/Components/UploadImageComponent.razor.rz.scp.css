@@ -1,0 +1,25 @@
+#upload[b-99mnzgzqrf] {
+    opacity: 0;
+}
+
+#upload-label[b-99mnzgzqrf] {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area[b-99mnzgzqrf] {
+    height: 50vh;
+    width: 74vw;
+    border: 3px dashed rgba(255, 255, 255, 0.7);
+    
+    margin: auto;
+}
+
+.image-area img[b-99mnzgzqrf] {
+    max-height: 49vh;
+    max-width: auto;
+    z-index: 2;
+    position: relative;
+}

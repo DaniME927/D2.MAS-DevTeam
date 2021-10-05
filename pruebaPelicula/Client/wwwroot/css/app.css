@@ -50,3 +50,14 @@ a,
   right: 0.75rem;
   top: 0.5rem;
 }
+
+#container-img-notfound {
+  display: flex;
+  height: calc(100vh - 56px);
+}
+
+#img-notfound {
+  max-height: 100%;
+  width: 75%;
+  margin: auto;
+}

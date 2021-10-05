@@ -920,11 +920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
+      "projectUniqueName": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
       "projectName": "pruebaPelicula.Server",
-      "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
+      "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
       "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\obj\\",
+      "outputPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -939,11 +939,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
-              "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj"
+            "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
+              "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj"
             },
-            "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
-              "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+            "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+              "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
             }
           }
         }

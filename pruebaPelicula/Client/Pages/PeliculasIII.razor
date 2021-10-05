@@ -1,0 +1,20 @@
+@page "/peliculasIII"
+@inject IModalService modal
+@inject IServiceMovie movie
+
+<MovieCardComponent ListMovies = "Movies" />
+
+@code {
+
+    private List<Movie> Movies;
+    
+    protected override void OnInitialized()
+    {
+        Movies = movie.GetMovies();
+    }
+
+    @* private void MovieInformation() {
+        <InformacionPelicula></InformacionPelicula>
+    } *@
+
+}

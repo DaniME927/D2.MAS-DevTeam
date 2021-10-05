@@ -9,6 +9,7 @@
 
 .navbar-brand {
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .oi {
@@ -16,6 +17,17 @@
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
+}
+
+#startup-icon, #film-icon {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#navmenu-searchbar {
+    max-width: 218px;
+    margin: 0 auto;
+    padding-bottom: 36px;
 }
 
 .nav-item {
@@ -58,5 +70,15 @@
     .collapse {
         /* Never collapse the sidebar for wide screens */
         display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    #navmenu-searchbar {
+        max-width: 90%;
+    }
+
+    .bbcita {
+        
     }
 }

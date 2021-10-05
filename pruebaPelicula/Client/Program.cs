@@ -1,3 +1,4 @@
+using System.Linq;
 using System;
 using System.Net.Http;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Blazored.Modal;
+using pruebaPelicula.Client.Services;
 
 namespace pruebaPelicula.Client
 {
@@ -18,11 +20,18 @@ namespace pruebaPelicula.Client
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddBlazoredModal();
-
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            builder.Services.AddBlazoredModal();
+
+            ConfigureServices(builder.Services);
+
             await builder.Build().RunAsync(); 
+        }
+
+        private static void ConfigureServices(IServiceCollection services)
+        {
+            services.AddSingleton<IServiceMovie,ServiceMovie>();
         }
     }
 }

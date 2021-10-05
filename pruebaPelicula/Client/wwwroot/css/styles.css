@@ -1,7 +1,117 @@
+/* Top Navbar Options */
+#nav-options {
+    background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%) !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Searchbar - Menu */
+#navmenu-searchbar .FontSize {
+    height: auto;
+    font-size: 14px !important;    
+    margin: auto auto;
+    padding: 0 2px;
+}
+
+/* Blazored Modal */
+/* .blazored-modal {
+    position: relative;
+    max-width: 75vw;
+    padding: 30px 10px !important;
+    padding: 5vh 4vw !important;
+}
+
+.blazored-modal-header {
+    align-items: center !important;
+    padding: 0 !important;
+}
+
+.blazored-modal-close {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 28px !important;
+}
+
+.blazored-modal-title {
+  font-size: 24px;
+} */
+
+/* ModalFormulariopelículas.razor */
+.form-container { 
+    min-height: 85vh;
+    max-height: 85vh;
+}
+
+#inputHorasDuracion {
+    width: 40px;
+    padding: 6px 7px;
+}
+
+#inputMinutosDuracion {
+    width: 47px;
+    padding: 6px 7px;
+}
+
+#elegirCategoria, #subirImagen {
+    padding: 23px 15px;
+}
+
+#btn-subirImagen:hover {
+    cursor: pointer;
+}
+
+/* UploadImagesComponent */
+.container-upload-image {
+    background-color: aqua;
+    /* max-height: 90vh;
+    min-height: 50vh; */
+    height: 90vh;
+    width: 75vw;
+    /* margin-top: -32px; */
+}
+
+/* ModalInformacionPelicula.razor.css */
+/* #container-informacionpelicula {
+    min-height: 85vh;
+    max-height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+#container-rate {
+    justify-content: flex-end;
+    padding: 0;
+}
+
+#icon-star {
+    max-width: 45px;
+}
+
+h4#rate {
+    font-size: 18px;
+}
+
+#h5-info {
+    font-size: 18px;
+}
+
+#h5-info {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+}
+
 /* Index.razor.css */
 #navbar-index {
     position: relative;
     height: calc(100vh - 136px);
+}
+
+#D2MAS-img {
+    width: 100%;
 }
 
 #subnavbar-index {
@@ -12,11 +122,13 @@
     transform: translate(0, -50%);
 }
 
+#nav-searchbar {
+    background-color: white !important;
+    max-width: 815px;
+}
 
-
-/* Peliculas.razor.css */
+/* MovieCardComponent.razor */
 #card-deck {
-    /* background-color: aqua; */
     max-width: 812px;
 }
 
@@ -26,7 +138,6 @@
 
 .card {
     max-height: 500px;
-    
     max-width: 240px;
     min-width: 240px;
 }
@@ -63,6 +174,20 @@
     display: none;
 }
 
+.card-body {
+    height: 150px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.card-title {
+    height: 72px;
+}
+
+#icon-star-description {
+    width: 15px;
+}
+
 #btn-details:hover {
     cursor: pointer;
 }
@@ -75,28 +200,16 @@
     transform: translate(-100%, 100%);
 }
 
-#icon-star-description {
-    width: 15px;
-}
-
 #rate-description {
     font-size: 12px;
     color: white;
 }
 
-/* InformacionPelicula.razor.css */
-#container-informacionpelicula {
-    width: 55vw;
-}
-
-#icon-star {
-    max-width: 45px;
-}
-
-#h5-info {
-    width: 100%;
-    margin: 0;
-    text-align: right;
+/* @media  */
+@media (max-width: 641px) {
+    .blazored-modal-title {
+        font-size: 20px;
+    }
 }
 
 /* @media Index.razor.css */
@@ -104,6 +217,12 @@
     #navbar-index {
         height: calc(100vh - 88px) !important;
     }
+
+    /* #nav-searchbar .FontSize {
+        height: auto;
+        font-size: 12px !important;  
+        margin: auto auto;  
+    } */
 }
 
 /* @media Peliculas.razor.css */
@@ -115,8 +234,17 @@
     }
 } 
 
-/* @media InformacionPelicula.razor.css */
+/* @media ModalInformacionPelicula.razor.css */
 @media (max-width: 768px) {
+    #nav-searchbar .FontSize {
+        font-size: 12px !important;  
+        margin: auto auto;
+    }
+
+    #container-rate {
+        justify-content: flex-start !important;
+    }
+
     #h5-info {
         text-align: left !important;
         font-size: 18px !important;
