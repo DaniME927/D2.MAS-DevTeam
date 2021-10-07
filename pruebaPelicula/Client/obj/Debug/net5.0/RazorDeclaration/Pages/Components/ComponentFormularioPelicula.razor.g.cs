@@ -91,41 +91,48 @@ using pruebaPelicula.Client.Shared;
 #nullable disable
 #nullable restore
 #line 12 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Pages.Components;
+using pruebaPelicula.Client.Helpers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 13 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Pages.Movies;
+using pruebaPelicula.Client.Pages.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 14 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Shared.Entity;
+using pruebaPelicula.Client.Pages.Movies;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 15 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Services;
+using pruebaPelicula.Shared.Entity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 16 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using Blazored.Modal;
+using pruebaPelicula.Client.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 17 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
+using Blazored.Modal;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
 using Blazored.Modal.Services;
 
 #line default
@@ -139,17 +146,33 @@ using Blazored.Modal.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Pages\Components\ComponentFormularioPelicula.razor"
+#line 77 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Pages\Components\ComponentFormularioPelicula.razor"
        
 
     [Parameter] public Movie MovieModel { get; set; }
     [Parameter] public EventCallback OnValidSubmit {get; set; }
+    [Parameter] public List<Category> NoSelectedList { get; set; }
+    [Parameter] public List<Category> SelectedList { get; set; }
+    private List<MultipleSelectorModel> NoSelectedListModel = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> SelectedListModel = new List<MultipleSelectorModel>();
+
+    protected override void OnInitialized()
+    {
+        NoSelectedListModel = NoSelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+        SelectedListModel = SelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+    }
+
+    public void LlamarJavascript()
+    {
+        jsRuntime.InvokeVoidAsync("EstructuraHTML");
+    }
 
 
 #line default
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IModalService modal { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
     }
 }
 #pragma warning restore 1591

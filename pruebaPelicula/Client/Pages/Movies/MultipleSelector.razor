@@ -1,0 +1,72 @@
+<div id="ContainerMultipleSelector" class="container">
+    <div id="FieldList" class="form-group">
+        @foreach (var item in NoSelectedSorted)
+        {
+            <li @onclick="@(() => Seleccionar(item))">@item.Name</li>
+        }
+    </div>
+    <div id="Buttons" class="form-group my-auto mx-3">
+        <div id="SeleccionarButton" class="my-2">
+            <button type="button" class="btn btn-light"@onclick="SeleccionarTodo">@TextoSeleccionar</button>
+        </div>
+        <div id="DeseleccionrButton" class="my2">
+            <button type="button" class="btn btn-light" @onclick="DeseleccionarTodo">@TextoDeseleccionar</button>
+        </div>
+    </div>
+    <div id="FieldList" class="form-group">
+        @foreach (var item in SelectedSorted)
+        {
+            <li @onclick="@(() => Deseleccionar(item))">@item.Name</li>
+        }
+    </div>
+</div>
+
+@code {
+
+    [Parameter] public List<MultipleSelectorModel> NoSelected { get; set; } = new List<MultipleSelectorModel>();
+    [Parameter] public List<MultipleSelectorModel> Selected { get; set; } = new List<MultipleSelectorModel>();
+    private string TextoSeleccionar = ">>";
+    private string TextoDeseleccionar = "<<";
+    private List<MultipleSelectorModel> NoSelectedSorted = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> SelectedSorted = new List<MultipleSelectorModel>();
+
+    protected override void OnInitialized()
+    {
+        SortedList();
+    }
+
+    private void SortedList()
+    {
+        NoSelectedSorted = NoSelected.OrderBy(x => x.Name).ToList();
+        SelectedSorted = Selected.OrderBy(x => x.Name).ToList();
+    }
+
+    private void Seleccionar(MultipleSelectorModel item)
+    {
+        NoSelected.Remove(item);
+        Selected.Add(item);
+        SortedList();
+    }
+
+    private void Deseleccionar(MultipleSelectorModel item)
+    {
+        Selected.Remove(item);
+        NoSelected.Add(item);
+        SortedList();
+    }
+
+    private void SeleccionarTodo()
+    {
+        Selected.AddRange(NoSelected);
+        NoSelected.Clear();
+        SortedList();
+    }
+
+    private void DeseleccionarTodo()
+    {
+        NoSelected.AddRange(Selected);
+        Selected.Clear();
+        SortedList();
+    }
+
+}

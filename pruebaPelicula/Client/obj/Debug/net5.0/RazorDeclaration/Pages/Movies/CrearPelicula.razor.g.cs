@@ -91,41 +91,48 @@ using pruebaPelicula.Client.Shared;
 #nullable disable
 #nullable restore
 #line 12 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Pages.Components;
+using pruebaPelicula.Client.Helpers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 13 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Pages.Movies;
+using pruebaPelicula.Client.Pages.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 14 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Shared.Entity;
+using pruebaPelicula.Client.Pages.Movies;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 15 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using pruebaPelicula.Client.Services;
+using pruebaPelicula.Shared.Entity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 16 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
-using Blazored.Modal;
+using pruebaPelicula.Client.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 17 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
+using Blazored.Modal;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\_Imports.razor"
 using Blazored.Modal.Services;
 
 #line default
@@ -140,20 +147,35 @@ using Blazored.Modal.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Pages\Movies\CrearPelicula.razor"
+#line 6 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Pages\Movies\CrearPelicula.razor"
        
 
     private Movie Movie = new Movie();
+    private List<Category> NoSelectedCategoryList = new List<Category>();
+    private List<Category> SelectedCategoryList = new List<Category>();
+
+    protected override void OnInitialized()
+    {
+        NoSelectedCategoryList = categories.GetCategories();
+    }
 
     private void CreateMovie()
     {
-
+        Console.WriteLine($"Nombre de la película: {Movie.Name}");
+        Console.WriteLine($"Trailer de la película: {Movie.Trailer}");
+        Console.WriteLine($"En cartelera: {Movie.EnCartelera}");
+        Console.WriteLine($"Puntuación de la película: {Movie.Score}");
+        Console.WriteLine($"Horas de la película: {Movie.DurationHour}");
+        Console.WriteLine($"Minutos de la película: {Movie.DurationMinute}");
+        Console.WriteLine($"Sinopsis de la película: {Movie.Sinopsis}");
+        Console.WriteLine($"Fecha de estreno de la película: {Movie.Premier}");
     }
 
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceCategory categories { get; set; }
     }
 }
 #pragma warning restore 1591

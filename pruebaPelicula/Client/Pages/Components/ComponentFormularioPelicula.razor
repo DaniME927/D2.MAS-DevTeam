@@ -1,3 +1,4 @@
+@inject IJSRuntime jsRuntime
 @inject IModalService modal
 
 <EditForm Model="@MovieModel" OnValidSubmit="@OnValidSubmit">
@@ -17,25 +18,31 @@
                     <ValidationMessage For="@(() => MovieModel.Trailer)" />
                 </div>
                 <div class="col col-sm-4 my-2">
-                    <InputCheckbox @bind-Value="MovieModel.EnCartelera" id="EnCartelera" class="mx-1" />
-                    <label for="EnCartelera" class="my-0 mx-0">En Cartelera</label>
+                    <InputCheckbox @bind-Value="MovieModel.EnCartelera" id="EnCartelera" class="form-check-label my-auto mx-1" />
+                    <label for="EnCartelera" class="form-check-label my-auto mx-0">En Cartelera</label>
                 </div>
             </div>
         </div>
 
         <div class="form-group">
             <div class="row">
-                <div class="col col-sm-4">
+                <div class="col col-sm-4 my-2">
                     <label for="Score">Puntuación</label>
                     <InputNumber @bind-Value="MovieModel.Score" id="Score" min="0" max="10" class="form-control" />
+                    <ValidationMessage For="@(() => MovieModel.Score)" />
                 </div>
-                <div class="col col-sm-4">
-                    <label for="Duracion">Duración</label>
-                    <div id="Duracion" class="form-group d-flex aling-items-center">
-                        <InputNumber @bind-Value="MovieModel.DurationHour" min="0" max="9" class="form-control mr-1" style="max-width: 55px;" />
-                        <p class="my-0 mr-4">h</p>
-                        <InputNumber @bind-Value="MovieModel.DurationMinute" min="0" max="59" class="form-control mr-1" style="max-width: 55px;" />
-                        <p class="my-0">m</p>
+                <div class="col col-sm-4 my-2">
+                    <label for="Premier">Fecha de estreno</label>
+                    <InputDate @bind-Value="MovieModel.Premier" id="Premier" class="form-control" />
+                    <ValidationMessage For="@(() => MovieModel.Premier)" />
+                </div>
+                <div class="col col-sm-4 my-2">
+                        <label for="Duracion">Duración</label>
+                        <div id="Duracion" class="form-group d-flex aling-items-center">
+                        <InputNumber @bind-Value="MovieModel.DurationHour" min="0" max="9" class="form-control mr-1" style="max-width: 57px;" />
+                        <p class="my-auto mr-4">h</p>
+                        <InputNumber @bind-Value="MovieModel.DurationMinute" min="0" max="59" class="form-control mr-1" style="max-width: 57px;" />
+                        <p class="my-auto">m</p>
                     </div>
                 </div>
             </div>
@@ -43,8 +50,25 @@
 
         <div class="form-group">
             <div class="row">
-
+                <div class="col col-sm-6 my-2">
+                    <InputTextArea @bind-Value="MovieModel.Sinopsis" @onkeyup="LlamarJavascript" id="Sinopsis" placeholder="Sinopsis." maxlength="500" class="form-control" style="height: 250px; width: 100%; resize: none;" />
+                    <p id="ContadorCaracteres" class="mt-1 mb-0">Carácteres: 0 /500</p>
+                    <ValidationMessage For="@(() => MovieModel.Sinopsis)" />
+                </div>
+                <div class="col col-sm-6">
+                    <div class="row">
+                        <button type="button" class="btn btn-light my-auto mx-auto py-auto px-4" @onclick="@(() => modal.Show<UploadImageComponent>("Imagen"))">Insertar portada de película</button>
+                    </div>
+                    <div class="row mt-3 mx-0">
+                        <MultipleSelector NoSelected="NoSelectedListModel" Selected="SelectedListModel" />
+                    </div>
+                </div>
             </div>
+        </div>
+
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Aceptar</button>
         </div>
 
     </div>
@@ -54,5 +78,20 @@
 
     [Parameter] public Movie MovieModel { get; set; }
     [Parameter] public EventCallback OnValidSubmit {get; set; }
+    [Parameter] public List<Category> NoSelectedList { get; set; }
+    [Parameter] public List<Category> SelectedList { get; set; }
+    private List<MultipleSelectorModel> NoSelectedListModel = new List<MultipleSelectorModel>();
+    private List<MultipleSelectorModel> SelectedListModel = new List<MultipleSelectorModel>();
+
+    protected override void OnInitialized()
+    {
+        NoSelectedListModel = NoSelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+        SelectedListModel = SelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+    }
+
+    public void LlamarJavascript()
+    {
+        jsRuntime.InvokeVoidAsync("EstructuraHTML");
+    }
 
 }

@@ -1,14 +1,29 @@
 @page "/movies/create"
+@inject IServiceCategory categories
 
-<ComponentFormularioPelicula MovieModel="Movie" OnValidSubmit="CreateMovie" />
+<ComponentFormularioPelicula MovieModel="Movie" OnValidSubmit="CreateMovie" NoSelectedList="NoSelectedCategoryList" SelectedList="SelectedCategoryList" />
 
 @code {
 
     private Movie Movie = new Movie();
+    private List<Category> NoSelectedCategoryList = new List<Category>();
+    private List<Category> SelectedCategoryList = new List<Category>();
+
+    protected override void OnInitialized()
+    {
+        NoSelectedCategoryList = categories.GetCategories();
+    }
 
     private void CreateMovie()
     {
-
+        Console.WriteLine($"Nombre de la película: {Movie.Name}");
+        Console.WriteLine($"Trailer de la película: {Movie.Trailer}");
+        Console.WriteLine($"En cartelera: {Movie.EnCartelera}");
+        Console.WriteLine($"Puntuación de la película: {Movie.Score}");
+        Console.WriteLine($"Horas de la película: {Movie.DurationHour}");
+        Console.WriteLine($"Minutos de la película: {Movie.DurationMinute}");
+        Console.WriteLine($"Sinopsis de la película: {Movie.Sinopsis}");
+        Console.WriteLine($"Fecha de estreno de la película: {Movie.Premier}");
     }
 
 }

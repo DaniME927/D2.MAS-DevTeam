@@ -2638,3 +2638,6 @@ C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razo
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\ComponentFormularioActor.razor.g.cs
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ComponentFormularioCategoria.razor.g.cs
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\ComponentFormularioCategoria.razor.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\MultipleSelector.razor.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\MultipleSelector.razor.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Pages\Movies\MultipleSelector.razor.rz.scp.css

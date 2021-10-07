@@ -1,0 +1,43 @@
+#ContainerMultipleSelector {
+    display: flex;
+}
+
+#FieldList {
+    flex-basis: 100%;
+    overflow-y: auto;
+    max-height: 203px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 5px 0px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#FieldList, #Buttons {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 3px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
