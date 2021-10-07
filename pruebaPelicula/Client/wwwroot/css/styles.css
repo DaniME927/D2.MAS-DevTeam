@@ -122,9 +122,23 @@ h4#rate {
     transform: translate(0, -50%);
 }
 
+/* Searchbar */
 #nav-searchbar {
     background-color: white !important;
     max-width: 815px;
+}
+
+.LabelCheckboxSearch {
+    font-size: 14.4px;
+    color: white;
+}
+
+.EnCarteleraHiden {
+    display: none;
+}
+
+.EnCartelera {
+    display: block;
 }
 
 /* MovieCardComponent.razor */

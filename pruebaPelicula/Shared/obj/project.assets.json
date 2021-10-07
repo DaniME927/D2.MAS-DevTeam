@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/danielsanchez/.nuget/packages/": {}
+    "C:\\Users\\sandr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
       "projectName": "pruebaPelicula.Shared",
-      "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
-      "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-      "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/",
+      "projectPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+      "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sandr\\Desktop\\Proyectos v.2\\pruebaPelicula\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
