@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace pruebaPelicula.Client.Pages.Actors
+namespace pruebaPelicula.Client.Pages.Components
 {
     #line hidden
     using System;
@@ -145,8 +145,7 @@ using Blazored.Modal.Services;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/actors")]
-    public partial class MostrarActores : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ActorCardComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -154,21 +153,15 @@ using Blazored.Modal.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/Pages/Actors/MostrarActores.razor"
+#line 54 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/Pages/Components/ActorCardComponent.razor"
        
 
-    private List<Actor> Actors { get; set; }
-
-    protected override void OnInitialized()
-    {
-        Actors = actors.GetActors().OrderBy(x => x.Id).ToList();
-    }
+    [Parameter] public List<Actor> ListActors { get; set; }
 
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceActor actors { get; set; }
     }
 }
 #pragma warning restore 1591

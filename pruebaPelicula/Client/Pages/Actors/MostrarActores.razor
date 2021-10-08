@@ -1,0 +1,15 @@
+@page "/actors"
+@inject IServiceActor actors
+
+<ActorCardComponent ListActors="Actors" />
+
+@code {
+
+    private List<Actor> Actors { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Actors = actors.GetActors().OrderBy(x => x.Id).ToList();
+    }
+
+}
