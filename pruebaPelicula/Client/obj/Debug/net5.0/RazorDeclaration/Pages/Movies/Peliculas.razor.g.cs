@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace pruebaPelicula.Client.Shared
+namespace pruebaPelicula.Client.Pages.Movies
 {
     #line hidden
     using System;
@@ -138,7 +138,8 @@ using Blazored.Modal.Services;
 #line default
 #line hidden
 #nullable disable
-    public partial class SearchBar : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/movies")]
+    public partial class Peliculas : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -146,37 +147,21 @@ using Blazored.Modal.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 34 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Shared\SearchBar.razor"
+#line 6 "C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\Pages\Movies\Peliculas.razor"
        
 
-    private string film_search = string.Empty;
-    private string SelectedFilter = "pelicula";
-    private string EnCarteleraShow = string.Empty;
-    private bool CheckEnCartelera = false;
+    private List<Movie> Movies { get; set; }
 
-    private void SearchFilm()
+    protected override void OnInitialized()
     {
-        if (navigationManager.Uri != "/movies" && SelectedFilter == "pelicula")
-        {
-            navigationManager.NavigateTo("/movies");
-        }
-        Console.WriteLine(film_search);
-        Console.WriteLine(SelectedFilter);
-    }
-
-    private void EnviarConsulta(KeyboardEventArgs e)
-    {
-        if (e.Key == "Enter")
-        {
-            SearchFilm();
-        }
+        Movies = movies.GetMovies().OrderBy(x => x.Id).ToList();
     }
 
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movies { get; set; }
     }
 }
 #pragma warning restore 1591

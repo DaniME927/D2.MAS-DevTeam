@@ -2639,5 +2639,5 @@ C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razo
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\MultipleSelector.razor.g.cs
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\MultipleSelector.razor.g.cs
 C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Pages\Movies\MultipleSelector.razor.rz.scp.css
-C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\FiltroPeliculas.razor.g.cs
-C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\FiltroPeliculas.razor.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\Peliculas.razor.g.cs
+C:\Users\sandr\Desktop\Proyectos v.2\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\Peliculas.razor.g.cs
