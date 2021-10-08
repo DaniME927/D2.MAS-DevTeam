@@ -1,0 +1,15 @@
+@page "/movies"
+@inject IServiceMovie movies
+
+<MovieCardComponent ListMovies="Movies" />
+
+@code {
+
+    private List<Movie> Movies { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Movies = movies.GetMovies().OrderBy(x => x.Id).ToList();
+    }
+
+}

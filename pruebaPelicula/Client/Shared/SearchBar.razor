@@ -1,10 +1,10 @@
 @inject NavigationManager navigationManager
 
 <div class="container-fluid div-form p-0">
-    <div class="d-flex" style="width: 100%;">
-        <input type="text" @bind="film_search" @bind:event="oninput" class="form-control me-2 input-nav-form mr-2 FontSize"
+    <div class="d-flex form-control p-0" style="width: 100%; background-color: white;">
+        <input type="text" @bind="film_search" @bind:event="oninput" class="input-nav-form FontSize m-0 p-0" style="max-height: 100%;"
         autocomplete="off" placeholder="Introduzca el nombre de una película, actor o categoría." @onkeypress="@((KeyboardEventArgs e) => EnviarConsulta(e))">
-        <button type="button" class="btn btn-outline-success FontSize" @onclick="SearchFilm">Buscar</button>
+        <span class="oi oi-magnifying-glass my-auto" style=""></span>
     </div>
 </div>
 <div class="my-2">
@@ -15,7 +15,7 @@
             <label for="exampleRadios1" class="form-check-label LabelCheckboxSearch">Película</label>
         </div>
         <div class="form-check my-2 @(@SelectedFilter == "pelicula" ? @EnCarteleraShow = "EnCartelera" : @EnCarteleraShow = "EnCarteleraHiden")">
-            <input @bind="CheckEnCartelera" type="checkbox" id="EnCarteleraCheckbox" class="form-check-input">
+            <input @bind="CheckEnCartelera" @onclick="SearchFilm" type="checkbox" id="EnCarteleraCheckbox" class="form-check-input">
             <label for="EnCarteleraCheckbox" class="form-check-label LabelCheckboxSearch">En cartelera</label>
         </div>
     </div>
@@ -40,9 +40,9 @@
 
     private void SearchFilm()
     {
-        if (navigationManager.Uri != "/movies/search" && SelectedFilter == "pelicula")
+        if (navigationManager.Uri != "/movies" && SelectedFilter == "pelicula")
         {
-            navigationManager.NavigateTo("/movies/search");
+            navigationManager.NavigateTo("/movies");
         }
         Console.WriteLine(film_search);
         Console.WriteLine(SelectedFilter);

@@ -163,9 +163,9 @@ using Blazored.Modal.Services;
 
     private void SearchFilm()
     {
-        if (navigationManager.Uri != "/movies/search" && SelectedFilter == "pelicula")
+        if (navigationManager.Uri != "/movies" && SelectedFilter == "pelicula")
         {
-            navigationManager.NavigateTo("/movies/search");
+            navigationManager.NavigateTo("/movies");
         }
         Console.WriteLine(film_search);
         Console.WriteLine(SelectedFilter);

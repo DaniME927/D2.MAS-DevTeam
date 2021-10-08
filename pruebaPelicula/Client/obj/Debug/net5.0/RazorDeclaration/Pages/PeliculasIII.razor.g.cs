@@ -164,7 +164,6 @@ using Blazored.Modal.Services;
         Movies = movie.GetMovies();
     }
 
-    
 
 #line default
 #line hidden
