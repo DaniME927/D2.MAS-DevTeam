@@ -10,7 +10,7 @@ namespace pruebaPelicula.Shared.Entity
 
         }
 
-        public Actor(int id, string actorName, DocumentTypeEnum documentType, string document, GenderEnum gender, int knownCredits, int nominations, string biography, string photo) 
+        public Actor(int id, string actorName, DocumentTypeEnum documentType, string document, GenderEnum gender,int knownCredits, int nominations, string biography, string photo)
         {
             this.Id = id;
             this.ActorName = actorName;
@@ -20,7 +20,7 @@ namespace pruebaPelicula.Shared.Entity
             this.KnownCredits = knownCredits;
             this.Nominations = nominations;
             this.Biography = biography;
-            this.Photo = photo; 
+            this.Photo = photo;             
         }
         
         public int Id { get; set; }
@@ -31,12 +31,12 @@ namespace pruebaPelicula.Shared.Entity
         public string Document { get; set; }
         public GenderEnum Gender { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        public DateTime? BirthDate { get; set; }
         public int KnownCredits { get; set; }
         public int Nominations { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido")]
         public string Biography { get; set; }
         public string Photo { get; set; }
+        public DateTime? BirthDate { get; set; }
     }
 
     public enum DocumentTypeEnum

@@ -33,6 +33,7 @@ namespace pruebaPelicula.Client
         {
             services.AddSingleton<IServiceMovie,ServiceMovie>();
             services.AddSingleton<IServiceCategory,ServiceCategory>();
+            services.AddSingleton<IServiceActor,ServiceActor>();
         }
     }
 }
