@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = pruebaPelicula.Client
-build_property.ProjectDir = /Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\
+=======
+build_property.ProjectDir = D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7

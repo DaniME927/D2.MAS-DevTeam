@@ -13,133 +13,209 @@ namespace pruebaPelicula.Client.Pages.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 1 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 1 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 2 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 2 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 3 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 3 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 4 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 4 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 5 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 5 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 6 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 6 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 7 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 7 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 8 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 8 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 9 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 9 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 10 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 10 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 11 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 11 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 12 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 12 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Helpers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 13 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 13 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Pages.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 14 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 14 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Pages.Movies;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 15 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 15 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Pages.Actors;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 16 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 16 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Shared.Entity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 17 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 17 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 17 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using pruebaPelicula.Client.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 18 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 18 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 18 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Blazored.Modal;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 19 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/_Imports.razor"
+<<<<<<< HEAD
+#line 19 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+=======
+#line 19 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\_Imports.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
 using Blazored.Modal.Services;
 
 #line default
@@ -153,25 +229,44 @@ using Blazored.Modal.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 77 "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/Pages/Components/ComponentFormularioPelicula.razor"
+<<<<<<< HEAD
+#line 93 "C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\Pages\Components\ComponentFormularioPelicula.razor"
+=======
+#line 77 "D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Client\Pages\Components\ComponentFormularioPelicula.razor"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
        
 
     [Parameter] public Movie MovieModel { get; set; }
     [Parameter] public EventCallback OnValidSubmit {get; set; }
     [Parameter] public List<Category> NoSelectedList { get; set; }
     [Parameter] public List<Category> SelectedList { get; set; }
+    [Parameter] public List<Actor> ActoresSeleccionados { get; set; } = new List<Actor>();
     private List<MultipleSelectorModel> NoSelectedListModel = new List<MultipleSelectorModel>();
     private List<MultipleSelectorModel> SelectedListModel = new List<MultipleSelectorModel>();
+    private List<Actor> ListaActores = new List<Actor>();
+    private List<Actor> FiltroActores = new List<Actor>();
 
     protected override void OnInitialized()
     {
         NoSelectedListModel = NoSelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
         SelectedListModel = SelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+
+        ListaActores = new List<Actor>(){
+            new Actor(){Id=1, ActorName="Yaneth Mejía", Photo="https://pbs.twimg.com/profile_images/1079060744891785216/dAsFSbHH_400x400.jpg"},
+            new Actor(){Id=2, ActorName="Carolina Marquez", Photo="https://archivo.autonoma.edu.co/sites/default/files/styles/medium/public/carolina-marquez-narvaez.jpg?itok=CcL43PAR"},
+            new Actor(){Id=3, ActorName="Juan Esteban", Photo="https://cdn1.vectorstock.com/i/1000x1000/29/65/cinema-award-best-actor-flat-style-vector-13602965.jpg"},
+        };
     }
 
     public void LlamarJavascript()
     {
         jsRuntime.InvokeVoidAsync("EstructuraHTML");
+    }
+
+    private async Task<IEnumerable<Actor>> BuscarActores(string searchText)
+    {
+        await Task.Delay(0);
+        return FiltroActores = ListaActores.Where(x => x.ActorName.Contains(searchText)).ToList();   
     }
 
 

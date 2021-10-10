@@ -1,20 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/pruebaPelicula.Server.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj": {}
   },
   "projects": {
-    "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/pruebaPelicula.Client.csproj": {
+    "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/pruebaPelicula.Client.csproj",
+        "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
         "projectName": "pruebaPelicula.Client",
-        "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/pruebaPelicula.Client.csproj",
-        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-        "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/obj/",
+        "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+        "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+        "projectName": "pruebaPelicula.Client",
+        "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +43,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj": {
-                "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj"
+<<<<<<< HEAD
+              "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+                "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+=======
+              "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
               }
             }
           }
@@ -73,7 +95,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.9, 5.0.9]"
+              "version": "[5.0.10, 5.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +103,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "D:\\Documents\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
         }
       },
       "runtimes": {
@@ -90,17 +116,31 @@
         }
       }
     },
-    "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/pruebaPelicula.Server.csproj": {
+<<<<<<< HEAD
+    "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/pruebaPelicula.Server.csproj",
+        "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
         "projectName": "pruebaPelicula.Server",
-        "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/pruebaPelicula.Server.csproj",
-        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-        "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/",
+        "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
+        "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
+        "projectName": "pruebaPelicula.Server",
+        "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\pruebaPelicula.Server.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -112,11 +152,19 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/pruebaPelicula.Client.csproj": {
-                "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Client/pruebaPelicula.Client.csproj"
+<<<<<<< HEAD
+              "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
+                "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj"
               },
-              "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj": {
-                "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj"
+              "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+                "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+=======
+              "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Client\\pruebaPelicula.Client.csproj"
+              },
+              "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
               }
             }
           }
@@ -154,21 +202,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj": {
+    "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
         "projectName": "pruebaPelicula.Shared",
-        "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
-        "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-        "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/",
+        "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+        "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+          "runtimeIdentifierGraphPath": "D:\\Documents\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+        "projectName": "pruebaPelicula.Shared",
+        "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -206,7 +272,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "D:\\Documents\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
         }
       }
     }

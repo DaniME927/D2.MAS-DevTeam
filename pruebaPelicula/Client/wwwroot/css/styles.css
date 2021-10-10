@@ -39,12 +39,6 @@
   font-size: 24px;
 } */
 
-/* ModalFormulariopelículas.razor */
-.form-container { 
-    min-height: 85vh;
-    max-height: 85vh;
-}
-
 #inputHorasDuracion {
     width: 40px;
     padding: 6px 7px;
@@ -138,7 +132,49 @@ h4#rate {
 }
 
 .EnCartelera {
-    display: block;
+    display: inline-block;
+}
+
+#PeliculaRadio-Checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#SearchbarContainer {
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin: 2px 0;
+}
+
+#SearchbarContainer:hover {
+    width: 100%;
+}
+
+#InputTextSearch {
+    width: 100%;
+    padding: 0px 32px 0px 10px !important;
+    border: none;
+    border-radius: 30px;
+}
+
+#InputTextSearch:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 1px black !important;
+}
+
+#SearchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    border-radius: 50%;
+}
+
+#SearchIcon:hover {
+    cursor: pointer;
 }
 
 /* MovieCardComponent.razor */

@@ -1,20 +1,22 @@
+@inject IServiceMovie movie
 @inject NavigationManager navigationManager
+@inject StateContainer stateContainer
 
-<div class="container-fluid div-form p-0">
-    <div class="d-flex form-control p-0" style="width: 100%; background-color: white;">
-        <input type="text" @bind="film_search" @bind:event="oninput" class="input-nav-form FontSize m-0 p-0" style="max-height: 100%;"
-        autocomplete="off" placeholder="Introduzca el nombre de una película, actor o categoría." @onkeypress="@((KeyboardEventArgs e) => EnviarConsulta(e))">
-        <span class="oi oi-magnifying-glass my-auto" style=""></span>
-    </div>
+<div id="SearchbarContainer">
+    <input type="text" @bind="TextSearch" @bind:event="oninput" id="InputTextSearch" class="input-nav-form FontSize m-0 p-0" autocomplete="off"
+    placeholder="Buscar..." @onkeypress="@((KeyboardEventArgs e) => EnviarConsulta(e))">
+    <a id="SearchIcon" class="fas fa-search" @onclick="@(() => SearchFilm())"></a>
+    @* @onchange="@(() => stateContainer.SearchingTextTyped(@TextSearch))" *@
 </div>
-<div class="my-2">
-    <div>
-        <div class="form-check my-2">
+
+<div class="mt-4">
+    <div id="PeliculaRadio-Checkbox" class="my-2">
+        <div class="form-check">
             <input type="radio" id="exampleRadios1" class="form-check-input" name="filtro" checked="@(SelectedFilter == "pelicula")"
             @onchange="@(() => SelectedFilter = "pelicula")">
             <label for="exampleRadios1" class="form-check-label LabelCheckboxSearch">Película</label>
         </div>
-        <div class="form-check my-2 @(@SelectedFilter == "pelicula" ? @EnCarteleraShow = "EnCartelera" : @EnCarteleraShow = "EnCarteleraHiden")">
+        <div class="form-check @(@SelectedFilter == "pelicula" ? @EnCarteleraShow = "EnCartelera" : @EnCarteleraShow = "EnCarteleraHiden")">
             <input @bind="CheckEnCartelera" @onclick="SearchFilm" type="checkbox" id="EnCarteleraCheckbox" class="form-check-input">
             <label for="EnCarteleraCheckbox" class="form-check-label LabelCheckboxSearch">En cartelera</label>
         </div>
@@ -31,20 +33,35 @@
     </div>
 </div>
 
+@* <button @onclick="(() => stateContainer.FiltroPeliculas())">uwu</button> *@
+
 @code {
 
-    private string film_search = string.Empty;
+    private string TextSearch = string.Empty;
     private string SelectedFilter = "pelicula";
     private string EnCarteleraShow = string.Empty;
     private bool CheckEnCartelera = false;
-
+    
     private void SearchFilm()
     {
+        @* stateContainer.ListarPeliculas(TextSearch, movie); *@
+        stateContainer.SearchingTextTyped(@TextSearch);
         if (navigationManager.Uri != "/movies" && SelectedFilter == "pelicula")
         {
             navigationManager.NavigateTo("/movies");
+        }else {
+            if (navigationManager.Uri != "/actors" && SelectedFilter == "actor")
+            {
+                navigationManager.NavigateTo("/actors");
+            }else {
+                if (navigationManager.Uri != "/categories" && SelectedFilter == "categoria")
+                {
+                    navigationManager.NavigateTo("/categories");
+                }
+            }
         }
-        Console.WriteLine(film_search);
+
+        Console.WriteLine(TextSearch);
         Console.WriteLine(SelectedFilter);
     }
 

@@ -1,4 +1,6 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
+﻿@inject StateContainer stateContainer
+
+<div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">pruebaPelicula</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
@@ -13,17 +15,22 @@
             </NavLink>
         </li>
         <li class="nav-item px-3" @onclick="ToggleNavMenu">
-            <NavLink class="nav-link" href="movies">
+            <NavLink class="nav-link" href="/movies" @onclick="@(() => stateContainer.SearchingTextTyped(string.Empty))">
                 <span class="oi"><img src="Images/film-icon.png" alt="film-icon" id="film-icon"></span> Películas
             </NavLink>
         </li>
         <li class="nav-item px-3" @onclick="ToggleNavMenu">
-            <NavLink class="nav-link" href="/actors">
+<<<<<<< HEAD
+            <NavLink class="nav-link" href="/actors" @onclick="@(() => stateContainer.SearchingTextTyped(string.Empty))">
                 <span class="oi" aria-hidden="true"><img src="Images/film-icon.png" alt="film-icon" id="film-icon"></span>Actores
+=======
+            <NavLink class="nav-link" href="actors">
+                <span class="oi" aria-hidden="true"><img src="Images/film-icon.png" alt="film-icon" id="film-icon"></span> Actores
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
             </NavLink>
         </li>
         <li class="nav-item px-3" @onclick="ToggleNavMenu">
-            <NavLink class="nav-link" href="/categories">
+            <NavLink class="nav-link" href="/categories" @onclick="@(() => stateContainer.SearchingTextTyped(string.Empty))">
                 <span class="oi"><img src="Images/film-icon.png" alt="film-icon" id="film-icon"></span>Categorías
             </NavLink>
         </li>

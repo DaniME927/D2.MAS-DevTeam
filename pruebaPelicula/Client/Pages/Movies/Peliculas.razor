@@ -1,7 +1,9 @@
 @page "/movies"
 @inject IServiceMovie movies
+@inject StateContainer stateContainer
+@implements IDisposable
 
-<MovieCardComponent ListMovies="Movies" />
+    <MovieCardComponent ListMovies="Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower())).ToList()" />
 
 @code {
 
@@ -9,7 +11,13 @@
 
     protected override void OnInitialized()
     {
-        Movies = movies.GetMovies().OrderBy(x => x.Id).ToList();
+        stateContainer.OnActionEvent += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        stateContainer.TextTyped = string.Empty;
+        stateContainer.OnActionEvent -= StateHasChanged;
     }
 
 }

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Blazored.Modal;
 using pruebaPelicula.Client.Services;
+using pruebaPelicula.Client.Helpers;
 
 namespace pruebaPelicula.Client
 {
@@ -34,6 +35,7 @@ namespace pruebaPelicula.Client
             services.AddSingleton<IServiceMovie,ServiceMovie>();
             services.AddSingleton<IServiceCategory,ServiceCategory>();
             services.AddSingleton<IServiceActor,ServiceActor>();
+            services.AddSingleton<StateContainer>();
         }
     }
 }

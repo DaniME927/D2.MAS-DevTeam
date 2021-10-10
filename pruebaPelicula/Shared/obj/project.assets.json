@@ -8,19 +8,34 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/danielsanchez/.nuget/packages/": {}
+<<<<<<< HEAD
+    "C:\\Users\\sandr\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
       "projectName": "pruebaPelicula.Shared",
-      "projectPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/pruebaPelicula.Shared.csproj",
-      "packagesPath": "/Users/danielsanchez/.nuget/packages/",
-      "outputPath": "/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/",
+      "projectPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+      "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/danielsanchez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+      "projectName": "pruebaPelicula.Shared",
+      "projectPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +73,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "D:\\Documents\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
       }
     }
   }

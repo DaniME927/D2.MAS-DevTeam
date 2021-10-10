@@ -1,59 +1,56 @@
-@* HTML *@
+@inject StateContainer stateContainer
+@implements IDisposable 
+
 <div class="card-deck d-flex justify-content-center mx-auto" id="card-deck">
     
-    @foreach (var movie in ListMovies)
+    @if (ListMovies.Any())
     {
+        @foreach (var movie in ListMovies)
+        {
 
-        <div class="card d-flex align-items-center my-3 p-1">
-            <div class="card-img-info">
-                <img src="@movie.Poster" class="card-img-top" alt="@movie.Name">
-                <div class="card-info">
-                    <p style="color: white;">@movie.Sinopsis</p>
-                    <div class="row mb-3 m-0 d-flex justify-content-end" id="container-rate-description">
-                        <span class="mr-2">
-                            <img src="Images/star.png" id="icon-star-description">
-                        </span>
-                        <em><h4 class="m-0 p-0" id="rate-description">@movie.Score /10</h4></em>
+            <div class="card d-flex align-items-center my-3 p-1">
+                <div class="card-img-info">
+                    <img src="@movie.Poster" class="card-img-top" alt="@movie.Name">
+                    <div class="card-info">
+                        <p style="color: white;">@movie.Sinopsis</p>
+                        <div class="row mb-3 m-0 d-flex justify-content-end" id="container-rate-description">
+                            <span class="mr-2">
+                                <img src="Images/star.png" id="icon-star-description">
+                            </span>
+                            <em><h4 class="m-0 p-0" id="rate-description">@movie.Score /10</h4></em>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@movie.Name</h5>
+                    <div class="a-group">
+                        <a href="@movie.Trailer" target="_blank" class="btn btn-primary">Ver trailer</a>
+                        <a class="btn btn-link" id="btn-details" >Detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="card-body">
-                <h5 class="card-title">@movie.Name</h5>
-                <div class="a-group">
-                    <a href="@movie.Trailer" target="_blank" class="btn btn-primary">Ver trailer</a>
-                    <a class="btn btn-link" id="btn-details">Detalles</a>
-                </div>
-            </div>
-        </div>
 
+        }
+    }else {
+        <p class="my-3">No se encontraron coincidencias.</p>
     }
 
 </div>
 
-@* Barra de paginación *@
-<div class="d-flex justify-content-center">
-    <nav aria-label="pagination-nav">
-        <ul class="pagination">
-            <li class="page-item disabled">
-                <span class="page-link">Previous</span>
-            </li>
-            <li class="page-item active">
-                <span class="page-link">
-                    1
-                    <span class="sr-only">(current)</span>
-                </span>
-            </li>
-            <li class="page-item"><a class="page-link" href="peliculas2">2</a></li>
-            <li class="page-item"><a class="page-link" href="peliculas2">3</a></li>
-            <li class="page-item">
-                <a class="page-link" href="peliculas2">Next</a>
-            </li>
-        </ul>
-    </nav>
-</div>
+<ComponentPaginacion />
 
 @code {
 
     [Parameter] public List<Movie> ListMovies { get; set; }
+    
+    protected override void OnInitialized()
+    {
+        stateContainer.OnActionEvent += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        stateContainer.OnActionEvent -= StateHasChanged;
+    }
 
 }
