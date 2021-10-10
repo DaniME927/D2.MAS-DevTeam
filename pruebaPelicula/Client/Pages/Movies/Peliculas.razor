@@ -11,13 +11,13 @@
 
     protected override void OnInitialized()
     {
-        stateContainer.OnActionEvent += StateHasChanged;
+        stateContainer.OnTextTyped += StateHasChanged;
     }
 
     public void Dispose()
     {
         stateContainer.TextTyped = string.Empty;
-        stateContainer.OnActionEvent -= StateHasChanged;
+        stateContainer.OnTextTyped -= StateHasChanged;
     }
 
 }

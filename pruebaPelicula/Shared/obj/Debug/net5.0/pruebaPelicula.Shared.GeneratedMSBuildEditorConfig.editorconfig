@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows,browser
 build_property.RootNamespace = pruebaPelicula.Shared
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\
-=======
-build_property.ProjectDir = D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\
->>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
+build_property.ProjectDir = C:\Users\sandr\Desktop\pruebaPelicula\Shared\

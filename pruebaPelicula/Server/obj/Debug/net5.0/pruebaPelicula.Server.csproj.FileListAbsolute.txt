@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.StaticWebAssets.xml
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.json
@@ -60,370 +59,64 @@ C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\n
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\ref\pruebaPelicula.Server.dll
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.pdb
 C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.genruntimeconfig.cache
-=======
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.StaticWebAssets.xml
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.Development.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugProxy.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.StaticWebAssets.xml
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.exe
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.deps.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.dev.json
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.dll
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.AssemblyReference.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfoInputs.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfo.cs
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cs
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.xml
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/scopedcss/bundle/pruebaPelicula.Server.styles.css
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.input.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.output.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorCoreGenerate.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CopyComplete
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.dll
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/PrácticaHTML/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.genruntimeconfig.cache
-C:/PrácticaHTML/pruebaPelicula/Server/bin/Debug/net5.0/Blazored.Modal.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.Development.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugProxy.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.StaticWebAssets.xml
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.exe
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.deps.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.dev.json
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Blazored.Modal.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.AssemblyReference.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfoInputs.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfo.cs
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cs
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/scopedcss/bundle/pruebaPelicula.Server.styles.css
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.input.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.output.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorCoreGenerate.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CopyComplete
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.genruntimeconfig.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/appsettings.Development.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/appsettings.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugProxy.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Client.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.exe
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.deps.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.dev.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Blazored.Modal.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Client.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Shared.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Client.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.AssemblyReference.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfoInputs.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/scopedcss/bundle/pruebaPelicula.Server.styles.css
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.input.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.output.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorCoreGenerate.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CopyComplete
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Server/obj/Debug/net5.0/pruebaPelicula.Server.genruntimeconfig.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.Development.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugProxy.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.exe
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.deps.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.dev.json
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Blazored.Modal.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.AssemblyReference.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfoInputs.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.xml
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/scopedcss/bundle/pruebaPelicula.Server.styles.css
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.input.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.output.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorCoreGenerate.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CopyComplete
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/ref/pruebaPelicula.Server.dll
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.pdb
-C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.genruntimeconfig.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/ref/pruebaPelicula.Server.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.Development.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/appsettings.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugProxy.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.StaticWebAssets.xml
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.StaticWebAssets.xml
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.deps.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.runtimeconfig.dev.json
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/ref/pruebaPelicula.Server.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Blazored.Modal.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.dll
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Client.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.AssemblyReference.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfoInputs.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.AssemblyInfo.cs
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorAssemblyInfo.cs
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/staticwebassets/pruebaPelicula.Server.StaticWebAssets.xml
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/scopedcss/bundle/pruebaPelicula.Server.styles.css
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.input.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.TagHelpers.output.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorCoreGenerate.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.Views.pdb
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.csproj.CopyComplete
-/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Server/obj/Debug/net5.0/pruebaPelicula.Server.genruntimeconfig.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.Development.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.StaticWebAssets.xml
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.StaticWebAssets.xml
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.exe
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.deps.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.runtimeconfig.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.runtimeconfig.dev.json
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\ref\pruebaPelicula.Server.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.Views.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.Views.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Blazored.Modal.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Shared.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Shared.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.AssemblyReference.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.AssemblyInfoInputs.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.AssemblyInfo.cs
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.CoreCompileInputs.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorAssemblyInfo.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorAssemblyInfo.cs
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Server.StaticWebAssets.Manifest.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Server.StaticWebAssets.xml
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\scopedcss\bundle\pruebaPelicula.Server.styles.css
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.TagHelpers.input.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.TagHelpers.output.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorCoreGenerate.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.Views.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.CopyComplete
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\ref\pruebaPelicula.Server.dll
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.pdb
-D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.genruntimeconfig.cache
->>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\appsettings.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Pdb.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Mono.Cecil.Rocks.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.StaticWebAssets.xml
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.StaticWebAssets.xml
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.exe
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.deps.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.runtimeconfig.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.runtimeconfig.dev.json
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\ref\pruebaPelicula.Server.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.Views.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Server.Views.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Blazored.Modal.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Shared.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Client.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\bin\Debug\net5.0\pruebaPelicula.Shared.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.AssemblyReference.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.AssemblyInfoInputs.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.AssemblyInfo.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.CoreCompileInputs.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorAssemblyInfo.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorAssemblyInfo.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Server.StaticWebAssets.Manifest.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Server.StaticWebAssets.xml
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\scopedcss\bundle\pruebaPelicula.Server.styles.css
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.TagHelpers.input.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.TagHelpers.output.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorCoreGenerate.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorTargetAssemblyInfo.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.RazorTargetAssemblyInfo.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.Views.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.csproj.CopyComplete
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\ref\pruebaPelicula.Server.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Server\obj\Debug\net5.0\pruebaPelicula.Server.genruntimeconfig.cache

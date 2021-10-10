@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "9eUADaQgx7nCfZ3tp6KqGV9UYd99fr8VoGYKyJrOI7xJiiPos9hEpiuK5vE6HDImFyvlVpf8wXsxADiV4wgt7w==",
+  "dgSpecHash": "zKCmW8dkbswLEWqd4y3eQthk/OBkCC625nfFrnCCuC8cfvYP6SM/eqYZISgkze8Gl+DN1WMT1xOtwm+Y56tM9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sandr\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
-=======
-  "dgSpecHash": "XxKQGuroR9N5sO8hVE5iFH0Wjvs0OOnL5aHpCGi3TOCAfoH9gUtmMZgr089t6iw8Yfs3e3Sviw8pUbGKbXhUKg==",
-  "success": true,
-  "projectFilePath": "D:\\Documents\\GitHub\\D2.MAS-DevTeam\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
->>>>>>> 03e9d64e1f8da0547d82cf0d5caa130b71d505a7
+  "projectFilePath": "C:\\Users\\sandr\\Desktop\\pruebaPelicula\\Shared\\pruebaPelicula.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

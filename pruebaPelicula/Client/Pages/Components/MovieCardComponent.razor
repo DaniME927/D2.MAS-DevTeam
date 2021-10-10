@@ -1,6 +1,4 @@
-@inject StateContainer stateContainer
-@implements IDisposable 
-
+@* HTML *@
 <div class="card-deck d-flex justify-content-center mx-auto" id="card-deck">
     
     @if (ListMovies.Any())
@@ -25,7 +23,7 @@
                     <h5 class="card-title">@movie.Name</h5>
                     <div class="a-group">
                         <a href="@movie.Trailer" target="_blank" class="btn btn-primary">Ver trailer</a>
-                        <a class="btn btn-link" id="btn-details" >Detalles</a>
+                        <a class="btn btn-link" id="btn-details">Detalles</a>
                     </div>
                 </div>
             </div>
@@ -42,15 +40,5 @@
 @code {
 
     [Parameter] public List<Movie> ListMovies { get; set; }
-    
-    protected override void OnInitialized()
-    {
-        stateContainer.OnActionEvent += StateHasChanged;
-    }
-
-    public void Dispose()
-    {
-        stateContainer.OnActionEvent -= StateHasChanged;
-    }
 
 }

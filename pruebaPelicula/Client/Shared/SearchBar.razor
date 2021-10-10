@@ -4,7 +4,7 @@
 
 <div id="SearchbarContainer">
     <input type="text" @bind="TextSearch" @bind:event="oninput" id="InputTextSearch" class="input-nav-form FontSize m-0 p-0" autocomplete="off"
-    placeholder="Buscar..." @onkeypress="@((KeyboardEventArgs e) => EnviarConsulta(e))">
+    placeholder="Buscar..." @onkeypress="@((KeyboardEventArgs e) => EnviarConsulta(e))" @onfocusout="@(() => TextSearch = string.Empty)">
     <a id="SearchIcon" class="fas fa-search" @onclick="@(() => SearchFilm())"></a>
     @* @onchange="@(() => stateContainer.SearchingTextTyped(@TextSearch))" *@
 </div>
