@@ -58,3 +58,15 @@ C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/prue
 /Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
 /Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
 /Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.deps.json
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.dll
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.pdb
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.AssemblyReference.cache
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfoInputs.cache
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfo.cs
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.dll
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+D:\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.pdb

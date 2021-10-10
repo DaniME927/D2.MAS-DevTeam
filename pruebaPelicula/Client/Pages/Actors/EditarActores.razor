@@ -1,0 +1,26 @@
+@page "/actors/edit/{ActorId:int}"
+@using pruebaPelicula.Client.Pages.Components
+
+<ComponentFormularioActor OnValidSubmit="Edit" Actor="Actor"></ComponentFormularioActor>
+
+@code{
+    [Parameter] public int ActorId {get;set;}
+    Actor Actor = new Actor();
+    protected override void OnInitialized()
+    {
+        Actor = new Actor()
+        {
+            Id = ActorId,
+            ActorName = "Demi Lovato",
+            Document = "1053897654",
+            KnownCredits = 3,
+            Nominations = 2,
+            Biography = "Biografía de Demi Lovato",
+            BirthDate = DateTime.Today
+        };
+    }
+
+    private void Edit() {
+        Console.WriteLine("Edit Actor");
+    }
+}
