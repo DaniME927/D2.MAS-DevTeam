@@ -1,23 +1,111 @@
+@inject IJSRuntime jsRuntime
+@inject IModalService modal
 
+<EditForm Model="Actor" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>  
+    <div class="container my-5">
+        <div class="form-group">
+            <div class="row">
+                <div class="col col-sm-4 my-2">
+                    <InputSelect @bind-Value="Actor.DocumentType" class="form-control">
+                        @foreach (var documentType in Enum.GetValues(typeof(DocumentTypeEnum)))
+                        {
+                            <option>@documentType.ToString().Replace(" ","Selecciona una opción...")</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="@(() => Actor.DocumentType)" />
+                </div>
 
-<div class="form-container">
-    
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="inputName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputName">
-        </div>
-        <div class="col-md-6">
-            <label for="inputBirthDate" class="form-label">Fecha de nacimiento</label>
-            <input type="text" class="form-control" id="inputBirthDate">
-        </div>
-        <div class="col-12">
-            <label for="inputBio" class="form-label">Biografía</label>
-            <textarea class="form-control" id="inputBio" style="height:20vh"></textarea>
-        </div>
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary">Registrar</button>
-        </div>
-    </form>
+                <div class="col col-sm-4 my-2">
+                    <InputText @bind-Value="Actor.Document" placeholder="Número de documento."
+                        class="form-control" />
+                    <ValidationMessage For="@(() => Actor.Document)" />
+                </div>
 
-</div>
+                <div class="col col-sm-4 my-2">
+                    <InputText @bind-Value="Actor.ActorName" placeholder="Nombre del actor o actriz."
+                        class="form-control" />
+                    <ValidationMessage For="@(() => Actor.ActorName)" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="row">
+                <div class="col col-sm-4 my-2">
+                    <label for="BirthDate">Fecha de nacimiento</label>
+                    <InputDate @bind-Value="Actor.BirthDate" id="BirthDate" class="form-control" />
+                    <ValidationMessage For="@(() => Actor.BirthDate)" />
+                </div>
+
+                <div class="col col-sm-4 my-2">
+                    <label for="gender">Género</label>
+                    <InputSelect @bind-Value="Actor.Gender" class="form-control">
+                        @foreach (var gender in Enum.GetValues(typeof(GenderEnum)))
+                        {
+                            <option>@gender</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="@(() => Actor.Gender)" />
+                </div>
+
+                <div class="col col-sm-2 my-2">
+                    <label for="KnownCredits">Créditos</label>
+                    <InputNumber @bind-Value="Actor.KnownCredits" min="0" id="KnownCredits" class="form-control" />
+                    <ValidationMessage For="@(() => Actor.KnownCredits)" />
+                </div>
+                <div class="col col-sm-2 my-2">
+                    <label for="Nominations">Nominaciones</label>
+                    <InputNumber @bind-Value="Actor.Nominations" min="0" id="Nominations" class="form-control" />
+                    <ValidationMessage For="@(() => Actor.Nominations)" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="row">
+                <div class="col col-sm-6 my-2">
+                    <InputTextArea @bind-Value="Actor.Biography" @onkeyup="LlamarJavascript" id="Biografia" placeholder="Biografía." maxlength="5000" class="form-control" style="height: 250px; width: 100%; resize: none;" />
+                    <p id="ContadorCaracteresBiografia" class="mt-1 mb-0">Carácteres: 0 /5000</p>
+                    <ValidationMessage For="@(() => Actor.Biography)" />
+                </div>
+                <div class="col col-sm-6 my-2">
+                    <div class="row">
+                        <button type="button" class="btn btn-light my-auto mx-auto py-auto px-4" @onclick="@(() => modal.Show<ImageComponent>("Insertar imagen"))">Insertar imagen del actor o actriz</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success my-2 mr-3">Aceptar</button>
+            <button type="button" class="btn btn-danger my-2 mr-3">Cancelar</button>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    string imageURL;
+    [Parameter] public Actor Actor { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+    protected override void OnInitialized()
+    {
+        if (!string.IsNullOrEmpty(Actor.Photo))
+        {
+            imageURL = Actor.Photo;
+            Actor.Photo = null;
+        }
+    }
+
+    private void ImageSelected(string imageB64)
+    {
+        Actor.Photo = imageB64;
+        imageURL = null;
+    }
+
+    public void LlamarJavascript()
+    {
+        jsRuntime.InvokeVoidAsync("EstructuraHTMLBiografia");
+    }
+}

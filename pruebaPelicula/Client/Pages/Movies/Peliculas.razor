@@ -3,7 +3,18 @@
 @inject StateContainer stateContainer
 @implements IDisposable
 
-    <MovieCardComponent ListMovies="Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower())).ToList()" />
+    <div id="LimpiarFiltros">
+        <div class="mt-3" style="height: 16px;">
+            <p class="text-center m-0">@stateContainer.TextTyped</p>
+        </div>
+        <hr class="hr-filtro">
+        <p class="text-center mb-2">Resultados para:</p>
+        <div class="d-flex justify-content-center mb-3">
+            <button type="button" class="btn btn-primary" @onclick="@(() => { @stateContainer.TextTyped = string.Empty; @stateContainer.EnCartelera = false; })">Limpiar filtros</button>
+        </div>
+    </div>
+
+    <MovieCardComponent ListMovies="ListMovies()" />
 
 @code {
 
@@ -14,9 +25,20 @@
         stateContainer.OnTextTyped += StateHasChanged;
     }
 
+    private List<Movie> ListMovies()
+    {
+        if (stateContainer.EnCartelera == false)
+        {
+            Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower())).ToList();    
+        }else {
+            Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower()) && x.EnCartelera == true).ToList();    
+        }
+        return Movies;
+    }
+
     public void Dispose()
     {
-        stateContainer.TextTyped = string.Empty;
+        
         stateContainer.OnTextTyped -= StateHasChanged;
     }
 

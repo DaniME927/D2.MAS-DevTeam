@@ -1,3 +1,10 @@
+/* hr */
+hr{  
+    
+    width: 40%;
+    margin: 10px auto 0px auto;
+}
+
 /* Top Navbar Options */
 #nav-options {
     background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%) !important;
@@ -13,30 +20,33 @@
     padding: 0 2px;
 }
 
-/* Blazored Modal */
-/* .blazored-modal {
-    position: relative;
-    max-width: 75vw;
-    padding: 30px 10px !important;
-    padding: 5vh 4vw !important;
-}
-
-.blazored-modal-header {
-    align-items: center !important;
+/* ImageModal */
+/* .modal.fade.show {
+    display: fixed !important;
+    right: 0 !important;
+    left: 0 !important;
     padding: 0 !important;
-}
-
-.blazored-modal-close {
-    position: absolute;
-    top: -5px;
-    right: 5px;
     margin: 0 !important;
-    padding: 0 !important;
-    font-size: 28px !important;
+    background-color: yellow;
 }
 
-.blazored-modal-title {
-  font-size: 24px;
+#ImageModal {
+    
+    
+}
+
+#ImageModalContent {
+    width: 100%;
+
+}
+
+.modal-body {
+    width: 10px !important;
+    background-color: aqua;
+}
+
+.modal-header {
+    background-color: aqua !important;
 } */
 
 #inputHorasDuracion {
@@ -55,16 +65,6 @@
 
 #btn-subirImagen:hover {
     cursor: pointer;
-}
-
-/* UploadImagesComponent */
-.container-upload-image {
-    background-color: aqua;
-    /* max-height: 90vh;
-    min-height: 50vh; */
-    height: 90vh;
-    width: 75vw;
-    /* margin-top: -32px; */
 }
 
 /* ModalInformacionPelicula.razor.css */

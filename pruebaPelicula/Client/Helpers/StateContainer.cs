@@ -8,7 +8,9 @@ namespace pruebaPelicula.Client.Helpers
     public class StateContainer
     {
         public string TextTyped { get; set; } = String.Empty;
-        public List<Movie> ListaPeliculas { get; set; } = new List<Movie>();
+        public bool EnCartelera { get; set; }
+        
+        
         
         public event Action OnTextTyped;
 
@@ -18,5 +20,10 @@ namespace pruebaPelicula.Client.Helpers
             OnTextTyped?.Invoke();    
         }
         
+        public void PeliculasEnCartelera(bool Check)
+        {
+            EnCartelera = Check;
+            OnTextTyped?.Invoke();
+        }
     }
 }

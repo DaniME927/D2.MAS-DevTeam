@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace pruebaPelicula.Shared.Entity
@@ -24,32 +25,41 @@ namespace pruebaPelicula.Shared.Entity
         }
         
         public int Id { get; set; }
-        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
         public string ActorName { get; set; }
+        [Range(1, 4, ErrorMessage = "Debe seleccionar una opción.")]
         public DocumentTypeEnum DocumentType { get; set; }
-        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
         public string Document { get; set; }
+        [Range(1, 2, ErrorMessage = "Debe seleccionar una opción.")]
         public GenderEnum Gender { get; set; }
-        [Required(ErrorMessage = "El campo {0} es requerido")]
-        public int KnownCredits { get; set; }
-        public int Nominations { get; set; }
-        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
+        [Range(0, 5000, ErrorMessage = "No se admiten valores negativos.")]
+        public int? KnownCredits { get; set; }
+        [Required(ErrorMessage = "Este campo es requerido.")]
+        [Range(0, 5000, ErrorMessage = "No se admiten valores negativos.")]
+        public int? Nominations { get; set; }
+        [Required(ErrorMessage = "Este campo es requerido.")]
+        [StringLength(5000, MinimumLength = 500, ErrorMessage = "Este campo debe tener un mínimo de {2} carácteres y un máximo de {1} carácteres.")]
         public string Biography { get; set; }
         public string Photo { get; set; }
+        [Required(ErrorMessage = "Este campo es requerido.")]
         public DateTime? BirthDate { get; set; }
+
+        public List<MovieActor> MoviesActor { get; set; } = new List<MovieActor>();
     }
 
     public enum DocumentTypeEnum
     {
-        CedulaCiudadana = 0,
-        CedulaExtranjera = 1,
-        Pasaporte = 2,
-        RegistroCivil = 3
+        Cedula = 1,
+        CedulaExtranjera = 2,
+        Pasaporte = 3,
+        RegistroCivil = 4
     }
 
     public enum GenderEnum
     {
-        Femenino = 0,
-        Masculino = 1
+        Femenino = 1,
+        Masculino = 2
     }
 }

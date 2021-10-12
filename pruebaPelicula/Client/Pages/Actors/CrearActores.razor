@@ -1,0 +1,15 @@
+@page "/actors/create"
+@using pruebaPelicula.Client.Pages.Components
+
+<ComponentFormularioActor OnValidSubmit="Create" Actor="Actor"></ComponentFormularioActor>
+
+@code {
+    private Actor Actor = new Actor();
+    void Create()
+    {
+        Console.WriteLine($"Tipo de documento: {Actor.DocumentType}");
+        Console.WriteLine($"Número de documento: {Actor.Document}");
+        Console.WriteLine($"Nombre actor: {Actor.ActorName}");
+        Console.WriteLine($"Género del actor: {Actor.Gender}");
+    }
+}

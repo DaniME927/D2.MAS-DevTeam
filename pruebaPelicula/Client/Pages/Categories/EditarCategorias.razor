@@ -1,0 +1,21 @@
+@page "/categories/edit/{CategoryId:int}"
+
+<ComponentFormularioCategoria CategoryModel="Category" OnValidSubmit="Edit" />
+
+@code {
+
+    [Parameter] public int CategoryId { get; set; }
+    private Category Category = new Category();
+
+    protected override void OnInitialized()
+    {
+        Category = new Category( 1, "Acción" );
+    }
+
+    private void Edit()
+    {
+        Console.WriteLine($"Id de la categoría: {Category.Id}");
+        Console.WriteLine($"Nombre de la categoría: {Category.Name}");
+    }
+
+}

@@ -1,30 +1,35 @@
 @* HTML *@
 <div class="card-deck d-flex justify-content-center mx-auto" id="card-deck">
     
-    @foreach (var actor in ListActors)
+    @if (ListActors.Any())
     {
+        @foreach (var actor in ListActors)
+        {
 
-        <div class="card d-flex align-items-center my-3 p-1">
-            <div class="card-img-info">
-                <img src="@actor.Photo" class="card-img-top" alt="@actor.ActorName">
-                <div class="card-info">
-                    <p style="color: white;">@actor.Biography</p>
-                    <div class="row mb-3 m-0 d-flex justify-content-end" id="container-rate-description">
-                        <span class="mr-2">
-                            <img src="Images/star.png" id="icon-star-description">
-                        </span>
-                        <em><h4 class="m-0 p-0" id="rate-description">Nominaciones: @actor.Nominations</h4></em>
+            <div class="card d-flex align-items-center my-3 p-1">
+                <div class="card-img-info">
+                    <img src="@actor.Photo" class="card-img-top" alt="@actor.ActorName">
+                    <div class="card-info">
+                        <p style="color: white;">@actor.Biography</p>
+                        <div class="row mb-3 m-0 d-flex justify-content-end" id="container-rate-description">
+                            <span class="mr-2">
+                                <img src="Images/star.png" id="icon-star-description">
+                            </span>
+                            <em><h4 class="m-0 p-0" id="rate-description">Nominaciones: @actor.Nominations</h4></em>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@actor.ActorName</h5>
+                    <div class="a-group">                    
+                        <a class="btn btn-link" id="btn-details">Detalles</a>
                     </div>
                 </div>
             </div>
-            <div class="card-body">
-                <h5 class="card-title">@actor.ActorName</h5>
-                <div class="a-group">                    
-                    <a class="btn btn-link" id="btn-details">Detalles</a>
-                </div>
-            </div>
-        </div>
 
+        }  
+    }else {
+        <p class="my-3">No se encontraron coincidencias.</p>
     }
 
 </div>

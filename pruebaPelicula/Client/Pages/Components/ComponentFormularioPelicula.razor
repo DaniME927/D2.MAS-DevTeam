@@ -5,9 +5,9 @@
 
     <DataAnnotationsValidator />
 
-    <div class="container">
+    <div class="container my-5">
 
-        <div class="form-group mt-5">
+        <div class="form-group">
             <div class="row">
                 <div class="col col-sm-4 my-2">
                     <InputText @bind-Value="MovieModel.Name" placeholder="Nombre de la película." class="form-control" />
@@ -39,10 +39,16 @@
                 <div class="col col-sm-4 my-2">
                         <label for="Duracion">Duración</label>
                         <div id="Duracion" class="form-group d-flex aling-items-center">
-                        <InputNumber @bind-Value="MovieModel.DurationHour" min="0" max="9" class="form-control mr-1" style="max-width: 57px;" />
-                        <p class="my-auto mr-4">h</p>
-                        <InputNumber @bind-Value="MovieModel.DurationMinute" min="0" max="59" class="form-control mr-1" style="max-width: 57px;" />
-                        <p class="my-auto">m</p>
+                            <InputNumber @bind-Value="MovieModel.DurationHour" min="0" max="9" class="form-control mr-1" style="max-width: 57px;" />
+                        
+                            <p class="my-auto mr-4">h</p>
+                            <InputNumber @bind-Value="MovieModel.DurationMinute" min="0" max="59" class="form-control mr-1" style="max-width: 57px;" />
+                        
+                            <p class="my-auto">m</p>
+                    </div>
+                    <div class="d-flex">
+                        <ValidationMessage For="@(() => MovieModel.DurationHour)" />
+                        <ValidationMessage For="@(() => MovieModel.DurationMinute)" />
                     </div>
                 </div>
             </div>
@@ -51,13 +57,36 @@
         <div class="form-group">
             <div class="row">
                 <div class="col col-sm-6 my-2">
-                    <InputTextArea @bind-Value="MovieModel.Sinopsis" @onkeyup="LlamarJavascript" id="Sinopsis" placeholder="Sinopsis." maxlength="500" class="form-control" style="height: 250px; width: 100%; resize: none;" />
+                    <InputTextArea @bind-Value="MovieModel.Sinopsis" @oninput="LlamarJavascript" id="Sinopsis" placeholder="Sinopsis." maxlength="500" class="form-control" style="height: 250px; width: 100%; resize: none;" />
                     <p id="ContadorCaracteres" class="mt-1 mb-0">Carácteres: 0 /500</p>
                     <ValidationMessage For="@(() => MovieModel.Sinopsis)" />
                 </div>
                 <div class="col col-sm-6 my-2">
                     <div class="row">
-                        <button type="button" class="btn btn-light my-auto mx-auto py-auto px-4" @onclick="@(() => modal.Show<UploadImageComponent>("Imagen"))">Insertar portada de película</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" id="btnImageModal" class="btn btn-light my-auto mx-auto py-auto px-4"
+                        data-bs-toggle="modal" data-bs-target="#ImageModal" @onclick="LlamarJavascriptModal">Insertar portada de película</button>
+                        <!-- Button trigger modal -->
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="ImageModal" tabindex="-1" aria-labelledby="ImageModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content" id="ImageModalContent">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="ImageModalLabel">Insertar imagen</h5>
+                                        <button type="button" class="btn btn-light" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ImageComponent Label="" ImageSelected="ImageSelected" ImageURL="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
                     </div>
                     <div class="row mt-3 mx-0 my-2">
                         <MultipleSelector NoSelected="NoSelectedListModel" Selected="SelectedListModel" />
@@ -83,9 +112,8 @@
             </div>
         </div>
 
-        <div class="form-group mt-2 mb-5">
-            <button type="submit" class="btn btn-success">Aceptar</button>
-        </div>
+        <button type="submit" class="btn btn-success my-2 mr-3">Aceptar</button>
+        <button type="button" class="btn btn-danger my-2 mr-3">Cancelar</button>
 
     </div>
 </EditForm>
@@ -101,11 +129,19 @@
     private List<MultipleSelectorModel> SelectedListModel = new List<MultipleSelectorModel>();
     private List<Actor> ListaActores = new List<Actor>();
     private List<Actor> FiltroActores = new List<Actor>();
+    private string posterTemporal;
 
     protected override void OnInitialized()
     {
         NoSelectedListModel = NoSelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
         SelectedListModel = SelectedList.Select(x => new MultipleSelectorModel(x.Id.ToString(),x.Name)).ToList();
+
+        @* En caso de que el usuario quiera modificar la imagen de la pelicula *@
+        if (!string.IsNullOrWhiteSpace(MovieModel.Poster))
+        {
+            posterTemporal = MovieModel.Poster;
+            MovieModel.Poster = null;
+        }
 
         ListaActores = new List<Actor>(){
             new Actor(){Id=1, ActorName="Yaneth Mejía", Photo="https://pbs.twimg.com/profile_images/1079060744891785216/dAsFSbHH_400x400.jpg"},
@@ -114,9 +150,19 @@
         };
     }
 
+    private void ImageSelected(string image864)
+    {
+        MovieModel.Poster = image864;
+    }
+
     public void LlamarJavascript()
     {
         jsRuntime.InvokeVoidAsync("EstructuraHTML");
+    }
+
+        private void LlamarJavascriptModal()
+    {
+        jsRuntime.InvokeVoidAsync("ModalAction");
     }
 
     private async Task<IEnumerable<Actor>> BuscarActores(string searchText)

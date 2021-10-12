@@ -4428,8 +4428,6 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\A
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\CrearActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\EditarActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\FiltroActores.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\MostrarActor.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\MostrarActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Categories\Categorias.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ActorCardComponent.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ComponentFormularioActor.razor.g.cs
@@ -4448,7 +4446,6 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\P
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\Peliculas.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Shared\SearchBar.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\UploadImageComponent.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\MultipleSelector.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -4462,8 +4459,6 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\App.razor.g.
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\CrearActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\EditarActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\FiltroActores.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\MostrarActor.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\MostrarActores.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Categories\Categorias.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\ActorCardComponent.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\ComponentFormularioActor.razor.g.cs
@@ -4482,7 +4477,6 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\Peliculas.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Shared\SearchBar.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\UploadImageComponent.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Movies\MultipleSelector.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
@@ -4686,7 +4680,6 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\build-gz\m5+HU96C.
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\build-gz\dEeSEnGG.gz
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Client.StaticWebAssets.Manifest.cache
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\staticwebassets\pruebaPelicula.Client.StaticWebAssets.xml
-C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Pages\Components\UploadImageComponent.razor.rz.scp.css
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Pages\Movies\MultipleSelector.razor.rz.scp.css
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
@@ -4698,3 +4691,12 @@ C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\pruebaPelicula.Cli
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\pruebaPelicula.Client.dll
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\ref\pruebaPelicula.Client.dll
 C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\pruebaPelicula.Client.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ImageComponent.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Components\ImageComponent.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\scopedcss\Pages\Components\ImageComponent.razor.rz.scp.css
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\Actores.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Actors\Actores.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Categories\CrearCategorias.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Categories\CrearCategorias.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Categories\EditarCategorias.razor.g.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Client\obj\Debug\net5.0\Razor\Pages\Categories\EditarCategorias.razor.g.cs

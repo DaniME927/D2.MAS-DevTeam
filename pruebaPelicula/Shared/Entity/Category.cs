@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace pruebaPelicula.Shared.Entity
@@ -16,7 +18,10 @@ namespace pruebaPelicula.Shared.Entity
         }
 
         public int Id { get; set; }
-        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
+        [StringLength(50, MinimumLength = 4, ErrorMessage = "Este campo debe tener un mínimo de {2} carácteres y un máximo de {1} carácteres.")]
         public string Name { get; set; }
+
+        public List<MovieCategory> MoviesCategory { get; set; } = new List<MovieCategory>();
     }
 }
