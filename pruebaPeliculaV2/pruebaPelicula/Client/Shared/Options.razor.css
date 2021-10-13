@@ -1,0 +1,31 @@
+#options-nav {
+    height: 100%;
+    max-height: 25px;
+    width: 100%;
+    max-width: 815px;
+    padding: 0px 10px 0px 10px;
+}
+
+a {
+    color: white !important;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 690px) {
+    #options-nav {
+        font-size: 14px;
+    }
+}
+
+ @media (max-width: 641px) {
+    #options-nav {
+        display: none !important;
+    }
+}

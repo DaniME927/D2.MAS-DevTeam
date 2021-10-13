@@ -1,0 +1,27 @@
+@inject NavigationManager navigationManager
+
+<EditForm Model="@CategoryModel" OnValidSubmit="OnValidSubmit">
+
+    <DataAnnotationsValidator />
+    <div class="container my-5">
+        <div class="row">
+            <div class="col col-sm-6 my-2">
+                <InputText @bind-Value="CategoryModel.Name" class="form-control" placeholder = "Nombre de la categoría." />
+                <ValidationMessage For="@(() => CategoryModel.Name)" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success my-2 mr-3">Aceptar</button>
+            <button type="button" class="btn btn-danger my-2 mr-3" @onclick="@(() => navigationManager.NavigateTo("/"))">Cancelar</button>
+        </div>
+    </div>
+
+</EditForm>
+
+@code {
+
+    [Parameter] public Category CategoryModel { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+}

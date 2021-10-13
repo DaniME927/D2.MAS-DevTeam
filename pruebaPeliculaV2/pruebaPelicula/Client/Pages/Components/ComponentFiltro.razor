@@ -1,0 +1,30 @@
+@inject StateContainer stateContainer
+
+<div class="@stateContainer.LimpiarFiltros">
+    <div class="mt-3" style="height: 16px;">
+        <p class="text-center m-0">@stateContainer.TextTyped</p>
+    </div>
+    <hr class="hr-filtro">
+    <p class="text-center mb-2">Resultados para:</p>
+    <div class="d-flex justify-content-center mb-3">
+        <button type="button" class="btn btn-primary" @onclick="@(() => { @stateContainer.SearchingTextTyped(string.Empty); @stateContainer.PeliculasEnCartelera(false); @stateContainer.RestablecerFiltros(); })">Limpiar filtros</button>
+    </div>
+</div>
+
+@code {
+
+    protected override void OnInitialized()
+    {
+        stateContainer.OnTextTyped += StateHasChanged;
+        stateContainer.OnCheckCartelera += StateHasChanged;
+        stateContainer.OnLimpiarFiltros += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        stateContainer.OnTextTyped -= StateHasChanged;
+        stateContainer.OnCheckCartelera -= StateHasChanged;
+        stateContainer.OnLimpiarFiltros -= StateHasChanged;
+    }
+
+}

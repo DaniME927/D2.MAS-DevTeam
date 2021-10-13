@@ -1,0 +1,14 @@
+﻿<CascadingBlazoredModal>
+    <Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
+        <Found Context="routeData">
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        </Found>
+        <NotFound>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <div id="container-img-notfound">
+                    <img id="img-notfound" src="Images/404 not found.gif" alt="Eror 404: Not Found">
+                </div>
+            </LayoutView>
+        </NotFound>
+    </Router>
+</CascadingBlazoredModal>

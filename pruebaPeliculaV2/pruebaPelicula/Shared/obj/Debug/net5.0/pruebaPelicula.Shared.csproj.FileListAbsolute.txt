@@ -1,0 +1,84 @@
+C:/PrácticaHTML/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.deps.json
+C:/PrácticaHTML/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/PrácticaHTML/pruebaPelicula/Shared/bin/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/PrácticaHTML/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfo.cs
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/PrácticaHTML/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.deps.json
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/bin/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfo.cs
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/YESICA/Desktop/Archivos/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.deps.json
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/bin/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfo.cs
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula v2/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.deps.json
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/bin/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfo.cs
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+C:/Users/sandr/Desktop/Proyectos v.2/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.deps.json
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/bin/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/bin/Debug/net5.0/pruebaPelicula.Shared.pdb
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.AssemblyReference.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfoInputs.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.AssemblyInfo.cs
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/ref/pruebaPelicula.Shared.dll
+/Users/danielsanchez/Documents/GitHub/D2.MAS-DevTeam/pruebaPelicula/Shared/obj/Debug/net5.0/pruebaPelicula.Shared.pdb
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.deps.json
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.dll
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.pdb
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfo.cs
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.dll
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+C:\Users\sandr\Documents\GitHub\D2.MAS-DevTeam\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.deps.json
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\bin\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\bin\Debug\net5.0\pruebaPelicula.Shared.pdb
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.AssemblyReference.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfoInputs.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.AssemblyInfo.cs
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\ref\pruebaPelicula.Shared.dll
+C:\Users\sandr\Desktop\pruebaPelicula\Shared\obj\Debug\net5.0\pruebaPelicula.Shared.pdb

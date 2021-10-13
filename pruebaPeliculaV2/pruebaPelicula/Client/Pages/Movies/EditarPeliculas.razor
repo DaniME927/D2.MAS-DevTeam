@@ -1,0 +1,25 @@
+@page "/movies/edit/{MovieId:int}"
+@inject IServiceCategory categories
+
+<ComponentFormularioPelicula MovieModel="Movie" OnValidSubmit="Edit" NoSelectedList="NoSelectedCategoryList" SelectedList="SelectedCategoryList" />
+
+@code {
+
+    [Parameter] public int MovieId { get; set; }
+    private Movie Movie = new Movie();
+    private List<Category> NoSelectedCategoryList = new List<Category>();
+    private List<Category> SelectedCategoryList = new List<Category>();
+    
+    protected override void OnInitialized()
+    {
+        Movie = new Movie( 2, "Spider-Man: Un nuevo universo", 1, 30, true, "Images/Movies/SpiderMan - Un nuevo universo.png",  "https://www.youtube.com/watch?v=-RSseKOWpEQ", "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe illo earum voluptatum temporibus doloremque quidem explicabo deserunt, quos, laboriosam culpa veniam aut ipsam eveniet! Quia quo similique dolorem adipisci expedita.", 10 ) { Premier = new DateTime(2021,02,06) };
+        NoSelectedCategoryList = categories.GetCategories();
+    }
+
+    private void Edit()
+    {
+        Console.WriteLine($"Id de la película: {Movie.Id}");
+        Console.WriteLine($"Nombre de la película: {Movie.Name}");
+    }
+
+}

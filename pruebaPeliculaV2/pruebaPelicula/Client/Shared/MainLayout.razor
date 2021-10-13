@@ -1,0 +1,16 @@
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        <div class="top-row pl-4 navbar navbar-dark mx-auto" id="nav-options">
+            <Options />
+        </div>
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>

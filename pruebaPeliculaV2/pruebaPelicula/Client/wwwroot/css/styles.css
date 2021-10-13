@@ -1,0 +1,325 @@
+/* hr */
+hr{  
+    
+    width: 40%;
+    margin: 10px auto 0px auto;
+}
+
+.LimpiarFiltrosVisible {
+    display: block;
+}
+
+.LimpiarFiltrosNoVisible {
+    display: none;
+}
+
+/* Top Navbar Options */
+#nav-options {
+    background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%) !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Searchbar - Menu */
+#navmenu-searchbar .FontSize {
+    height: auto;
+    font-size: 14px !important;    
+    margin: auto auto;
+    padding: 0 2px;
+}
+
+/* ImageModal */
+/* .modal.fade.show {
+    display: fixed !important;
+    right: 0 !important;
+    left: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: yellow;
+}
+
+#ImageModal {
+    
+    
+}
+
+#ImageModalContent {
+    width: 100%;
+
+}
+
+.modal-body {
+    width: 10px !important;
+    background-color: aqua;
+}
+
+.modal-header {
+    background-color: aqua !important;
+} */
+
+#inputHorasDuracion {
+    width: 40px;
+    padding: 6px 7px;
+}
+
+#inputMinutosDuracion {
+    width: 47px;
+    padding: 6px 7px;
+}
+
+#elegirCategoria, #subirImagen {
+    padding: 23px 15px;
+}
+
+#btn-subirImagen:hover {
+    cursor: pointer;
+}
+
+/* ModalInformacionPelicula.razor.css */
+/* #container-informacionpelicula {
+    min-height: 85vh;
+    max-height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+#container-rate {
+    justify-content: flex-end;
+    padding: 0;
+}
+
+#icon-star {
+    max-width: 45px;
+}
+
+h4#rate {
+    font-size: 18px;
+}
+
+#h5-info {
+    font-size: 18px;
+}
+
+#h5-info {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+}
+
+/* Index.razor.css */
+#navbar-index {
+    position: relative;
+    height: calc(100vh - 136px);
+}
+
+#D2MAS-img {
+    width: 100%;
+}
+
+#subnavbar-index {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+/* Searchbar */
+#nav-searchbar {
+    background-color: white !important;
+    max-width: 815px;
+}
+
+.LabelCheckboxSearch {
+    font-size: 14.4px;
+    color: white;
+}
+
+.EnCarteleraHiden {
+    display: none;
+}
+
+.EnCartelera {
+    display: inline-block;
+}
+
+#PeliculaRadio-Checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#SearchbarContainer {
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin: 2px 0;
+}
+
+#SearchbarContainer:hover {
+    width: 100%;
+}
+
+#InputTextSearch {
+    width: 100%;
+    padding: 0px 32px 0px 10px !important;
+    border: none;
+    border-radius: 30px;
+}
+
+#InputTextSearch:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 1px black !important;
+}
+
+#SearchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    border-radius: 50%;
+}
+
+#SearchIcon:hover {
+    cursor: pointer;
+}
+
+/* MovieCardComponent.razor */
+#card-deck {
+    max-width: 812px;
+}
+
+.card, .card-img-top {
+    border-radius: 7px;
+}
+
+.card {
+    max-height: 500px;
+    max-width: 240px;
+    min-width: 240px;
+}
+
+.card-img-top {
+    max-height: 340px;
+    height: 340px;
+}
+
+.card-img-info:hover .card-img-top {
+    display: none;
+}
+
+.card-img-info:hover .card-info {
+    display: block;
+}
+
+.card-img-info {
+    height: 340px; 
+    width: 100%; 
+}
+
+.card-img-info {
+    cursor: pointer;
+}
+
+.card-info {
+    height: 340px; 
+    width: 100%; 
+    border-radius: 7px;
+    margin: 0;
+    padding: 10px; 
+    background-color: black;
+    display: none;
+}
+
+.card-body {
+    height: 150px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.card-title {
+    height: 72px;
+}
+
+#icon-star-description {
+    width: 15px;
+}
+
+#btn-details:hover {
+    cursor: pointer;
+}
+
+#container-rate-description {
+    width: 45px;
+    position: relative;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, 100%);
+}
+
+#rate-description {
+    font-size: 12px;
+    color: white;
+}
+
+/* @media  */
+@media (max-width: 641px) {
+    .blazored-modal-title {
+        font-size: 20px;
+    }
+}
+
+/* @media Index.razor.css */
+@media (max-width: 641px) {
+    #navbar-index {
+        height: calc(100vh - 88px) !important;
+    }
+
+    /* #nav-searchbar .FontSize {
+        height: auto;
+        font-size: 12px !important;  
+        margin: auto auto;  
+    } */
+}
+
+/* @media Peliculas.razor.css */
+ @media (max-width: 576px) {
+    .card {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+} 
+
+/* @media ModalInformacionPelicula.razor.css */
+@media (max-width: 768px) {
+    #nav-searchbar .FontSize {
+        font-size: 12px !important;  
+        margin: auto auto;
+    }
+
+    #container-rate {
+        justify-content: flex-start !important;
+    }
+
+    #h5-info {
+        text-align: left !important;
+        font-size: 18px !important;
+    }
+
+    h6#h6-info {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    #h5-info {
+        text-align: left !important;
+        font-size: 16px !important;
+    }
+
+    h6#h6-info {
+        font-size: 12px !important;
+    }
+}

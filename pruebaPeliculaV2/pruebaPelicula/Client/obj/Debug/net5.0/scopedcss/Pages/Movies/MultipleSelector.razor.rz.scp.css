@@ -1,0 +1,43 @@
+#ContainerMultipleSelector[b-pm8vo2aa6a] {
+    display: flex;
+}
+
+#FieldList[b-pm8vo2aa6a] {
+    flex-basis: 100%;
+    overflow-y: auto;
+    max-height: 197px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 5px 0px;
+}
+
+/* Custom Scrollbar */
+[b-pm8vo2aa6a]::-webkit-scrollbar {
+    width: 4px;
+}
+
+[b-pm8vo2aa6a]::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 100px;
+}
+
+[b-pm8vo2aa6a]::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#FieldList[b-pm8vo2aa6a], #Buttons[b-pm8vo2aa6a] {
+    margin: 0;
+}
+
+li[b-pm8vo2aa6a] {
+    list-style: none;
+    text-align: center;
+    padding: 3px;
+}
+
+li:hover[b-pm8vo2aa6a] {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}

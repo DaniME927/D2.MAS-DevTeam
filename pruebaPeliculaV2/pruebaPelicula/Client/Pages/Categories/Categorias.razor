@@ -1,0 +1,25 @@
+@page "/categories"
+@inject IServiceCategory category
+@inject StateContainer stateContainer
+@implements IDisposable
+
+<ComponentFiltro />
+
+<CategoriesComponent ListCategories = "Category = category.GetCategories().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower())).OrderBy(x => x.Id).ToList()" />
+
+
+@code {
+
+    private List<Category> Category;
+
+    protected override void OnInitialized()
+    {
+        stateContainer.OnTextTyped += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        stateContainer.OnTextTyped -= StateHasChanged;
+    }
+
+}

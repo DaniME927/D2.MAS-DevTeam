@@ -1,0 +1,24 @@
+<div class="">
+    
+    @if (ListCategories.Any())
+    {
+        @foreach (var category in ListCategories)
+        {
+
+            <div class="my-3 p-1">
+                <ul style="list-style: none;">
+                    <li style="cursor: pointer;">@category.Name</li>
+                </ul>
+            </div>
+        }
+    }else {
+        <p class="my-3 text-center">No se encontraron coincidencias.</p>
+    }
+
+</div>
+
+@code {
+
+    [Parameter] public List<Category> ListCategories { get; set; }
+
+}

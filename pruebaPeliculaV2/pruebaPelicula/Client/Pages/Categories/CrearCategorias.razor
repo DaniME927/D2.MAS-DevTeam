@@ -1,0 +1,16 @@
+@page "/categories/create"
+@inject NavigationManager navigationManager
+
+<ComponentFormularioCategoria CategoryModel="Category" OnValidSubmit="Create" />
+
+@code {
+
+    private Category Category = new Category();
+
+    private void Create()
+    {
+        Console.WriteLine($"Tipo de documento: {Category.Name}");
+        navigationManager.NavigateTo("/categories");
+    }
+
+}

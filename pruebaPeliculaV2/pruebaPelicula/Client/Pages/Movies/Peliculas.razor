@@ -1,0 +1,37 @@
+@page "/movies"
+@inject IServiceMovie movies
+@inject StateContainer stateContainer
+@implements IDisposable
+
+<ComponentFiltro />
+
+<MovieCardComponent ListMovies="ListMovies()" />
+
+@code {
+
+    private List<Movie> Movies { get; set; }
+
+    protected override void OnInitialized()
+    {
+        stateContainer.OnTextTyped += StateHasChanged;
+        stateContainer.OnCheckCartelera += StateHasChanged;
+    }
+
+    private List<Movie> ListMovies()
+    {
+        if (stateContainer.EnCartelera == false)
+        {
+            Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower())).ToList();    
+        }else {
+            Movies = movies.GetMovies().Where(x => x.Name.ToLower().Contains(stateContainer.TextTyped.ToLower()) && x.EnCartelera == true).ToList();    
+        }
+        return Movies;
+    }
+
+    public void Dispose()
+    {
+        stateContainer.OnTextTyped -= StateHasChanged;
+        stateContainer.OnCheckCartelera -= StateHasChanged;
+    }
+
+}
